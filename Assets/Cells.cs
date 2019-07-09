@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Cells : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Actions action;
     void Start()
     {
         
@@ -14,11 +14,5 @@ public class Cells : MonoBehaviour
     void Update()
     {
         
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireCube(this.transform.position, Vector3.one);
     }
 }

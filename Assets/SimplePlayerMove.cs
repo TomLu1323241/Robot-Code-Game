@@ -13,6 +13,8 @@ public class SimplePlayerMove : MonoBehaviour
 
     float lastJump;
 
+    Actions action = Actions.Walk;
+
     void Start()
     {
         lastJump = Time.time;
