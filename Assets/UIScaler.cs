@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class UIScaler : MonoBehaviour
 {
-    [SerializeField] GameObject GameLoopBackground;
-    [SerializeField] GameObject GameLoopText;
-    [SerializeField] GameObject GameLoopWordBank;
+    [SerializeField] GameObject GameLoopBackground = null;
+    [SerializeField] GameObject GameLoopText = null;
+    [SerializeField] GameObject GameLoopWordBank = null;
 
     // Start is called before the first frame update
     void Start()

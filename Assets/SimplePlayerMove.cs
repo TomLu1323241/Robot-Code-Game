@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class SimplePlayerMove : MonoBehaviour
 {
-    [SerializeField] float speed;
-    [SerializeField] float jumpHeight;
+    [SerializeField] float speed = 3;
+    [SerializeField] float jumpHeight = 5.5f;
 
-    [SerializeField] Collider2D ground;
+    [SerializeField] Collider2D ground = null;
 
-    Rigidbody2D body;
+    Rigidbody2D body = null;
 
     float lastJump;
 
-    Actions action = Actions.Walk;
+    //Actions action = Actions.Walk;
 
     void Start()
     {
