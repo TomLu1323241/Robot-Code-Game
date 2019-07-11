@@ -7,8 +7,10 @@ using System.Collections;
 public class Ticket : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     CellHandler cellHandler = null;
-    public Actions action;
 
+    public bool ifCondition = false;
+    public Actions action;
+    public Conditions condition;
     // Start is called before the first frame update
     void Start()
     {
