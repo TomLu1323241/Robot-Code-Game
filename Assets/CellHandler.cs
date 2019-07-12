@@ -44,6 +44,19 @@ public class CellHandler : MonoBehaviour
         bool handled = false;
         for (int i = 0; i < cells.Length; i++)
         {
+            bool alreadyHadCommand = false;
+            for (int j = 0; j < cells[i].transform.childCount; j++)
+            {
+                if (cells[i].transform.GetChild(j).GetComponent<Ticket>() != null)
+                {
+                    alreadyHadCommand = true;
+                }
+            }
+            if (alreadyHadCommand)
+            {
+                break;
+            }
+
             if (cells[i].isIfStatement && tickets.GetComponent<Ticket>().ifCondition && inCell(cells[i], tickets))
             {
                 tickets.transform.SetParent(cells[i].transform);
@@ -66,16 +79,16 @@ public class CellHandler : MonoBehaviour
                 break;
             }
 
-            bool done = false;
+            bool isEndBracket = false;
             for (int j = 0; j < cells[i].transform.childCount; j++)
             {
                 if (cells[i].transform.GetChild(j).GetComponent<TextMeshProUGUI>() != null && cells[i].transform.GetChild(j).GetComponent<TextMeshProUGUI>().text.Equals("}") && inCell(cells[i], tickets))
                 {
-                    done = true;
+                    isEndBracket = true;
                     break;
                 }
             }
-            if (done)
+            if (isEndBracket)
             {
                 break;
             }
