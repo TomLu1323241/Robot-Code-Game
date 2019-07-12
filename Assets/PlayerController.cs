@@ -76,6 +76,7 @@ public class PlayerController : MonoBehaviour
                         ifRunning = OnEdge();
                         break;
                     case Conditions.InMidAir:
+                        ifRunning = InMidAir();
                         break;
                     case Conditions.OnLadder:
                         break;
@@ -160,6 +161,15 @@ public class PlayerController : MonoBehaviour
             {
                 return true;
             }
+        }
+        return false;
+    }
+
+    bool InMidAir()
+    {
+        if (!LeftEdgeTrigger.IsTouching(ground) && !OnGroundTrigger.IsTouching(ground) && !RightEdgeTrigger.IsTouching(ground))
+        {
+            return true;
         }
         return false;
     }

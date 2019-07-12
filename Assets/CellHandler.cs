@@ -39,14 +39,16 @@ public class CellHandler : MonoBehaviour
         }
     }
 
-    public void SnapAndSet(GameObject tickets)
+    public bool SnapAndSet(GameObject tickets)
     {
+        bool handled = false;
         for (int i = 0; i < cells.Length; i++)
         {
             if (cells[i].isIfStatement && tickets.GetComponent<Ticket>().ifCondition && inCell(cells[i], tickets))
             {
                 tickets.transform.SetParent(cells[i].transform);
                 tickets.transform.position = cells[i].GetComponentInChildren<TextMeshProUGUI>().gameObject.transform.position;
+                handled = true;
                 break;
             } else if (!cells[i].isIfStatement && tickets.GetComponent<Ticket>().ifCondition && inCell(cells[i], tickets))
             {
@@ -58,6 +60,7 @@ public class CellHandler : MonoBehaviour
 
             if (cells[i].insideIf && !tickets.GetComponent<Ticket>().ifCondition && inCell(cells[i], tickets))
             {
+                handled = true;
                 tickets.transform.SetParent(cells[i].transform);
                 tickets.transform.localPosition = new Vector3(-Camera.main.orthographicSize * Camera.main.aspect + indentation * 2 + tickets.GetComponent<RectTransform>().rect.width / 2, 0);
                 break;
@@ -79,11 +82,13 @@ public class CellHandler : MonoBehaviour
 
             if (inCell(cells[i], tickets) && !tickets.GetComponent<Ticket>().ifCondition)
             {
+                handled = true;
                 tickets.transform.SetParent(cells[i].transform);
                 tickets.transform.localPosition = new Vector3(-Camera.main.orthographicSize * Camera.main.aspect + indentation + tickets.GetComponent<RectTransform>().rect.width / 2, 0);
             }
         }
         ResetBasedOnChild();
+        return handled;
     }
 
     public void ResetBasedOnChild()

@@ -11,10 +11,13 @@ public class Ticket : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     public bool ifCondition = false;
     public Actions action;
     public Conditions condition;
+
+    Vector3 origin;
     // Start is called before the first frame update
     void Start()
     {
         cellHandler = GameObject.FindObjectOfType<CellHandler>();
+        origin = this.transform.localPosition;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -32,6 +35,9 @@ public class Ticket : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        cellHandler.SnapAndSet(this.gameObject);
+        if (!cellHandler.SnapAndSet(this.gameObject))
+        {
+            this.transform.localPosition = origin;
+        }
     }
 }
