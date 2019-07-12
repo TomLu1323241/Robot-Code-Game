@@ -47,6 +47,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        Animation();
         if (Input.GetKeyDown(KeyCode.Space))// Debugging each line
         {
             for (int i = 0; i < cells.Length; i++)
@@ -59,7 +60,53 @@ public class PlayerController : MonoBehaviour
         {
             if (cells[i].isIfStatement)
             {
-
+                bool ifRunning = false;
+                switch (cells[i].condition)
+                {
+                    case Conditions.Empty:
+                        ifRunning = false;
+                        break;
+                    case Conditions.OnGround:
+                        ifRunning = OnGround();
+                        break;
+                    case Conditions.HitWall:
+                        ifRunning = HitWall();
+                        break;
+                    case Conditions.OnEdge:
+                        ifRunning = OnEdge();
+                        break;
+                    case Conditions.InMidAir:
+                        break;
+                    case Conditions.OnLadder:
+                        break;
+                    default:
+                        break;
+                }
+                if (ifRunning)
+                {
+                    for (int j = 1; j < cells[i].linesOfCommands + 1; j++)
+                    {
+                        switch (cells[i + j].action)
+                        {
+                            case Actions.Empty:
+                                break;
+                            case Actions.Walk:
+                                Walk();
+                                break;
+                            case Actions.Jump:
+                                Jump();
+                                break;
+                            case Actions.Climb:
+                                break;
+                            case Actions.Turn:
+                                Turn();
+                                break;
+                            default:
+                                break;
+                        }
+                    }
+                }
+                i += cells[i].linesOfCommands + 1;
             }
             switch (cells[i].action)
             {
@@ -81,8 +128,6 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        Animation();
-
         //Walk();
         //if (OnEdge())
         //{
@@ -90,7 +135,7 @@ public class PlayerController : MonoBehaviour
         //}
 
     }
-    
+
     bool OnGround()
     {
         if (OnGroundTrigger.IsTouching(ground))
@@ -108,7 +153,8 @@ public class PlayerController : MonoBehaviour
             {
                 return true;
             }
-        } else
+        }
+        else
         {
             if (!RightEdgeTrigger.IsTouching(ground) && OnGroundTrigger.IsTouching(ground) && LeftEdgeTrigger.IsTouching(ground))
             {
@@ -169,7 +215,8 @@ public class PlayerController : MonoBehaviour
         if (Mathf.Abs(body.velocity.x) > 0.01f)
         {
             this.GetComponent<Animator>().SetBool("Walking", true);
-        } else
+        }
+        else
         {
             this.GetComponent<Animator>().SetBool("Walking", false);
         }
