@@ -36,7 +36,6 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
-        SetUpIfStatements();
         body = this.GetComponent<Rigidbody2D>();
 
         OnGroundTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[0];
@@ -46,76 +45,50 @@ public class PlayerController : MonoBehaviour
         RightWallTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[4];
     }
 
-    private void SetUpIfStatements()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))// Debugging each line
         {
             for (int i = 0; i < cells.Length; i++)
             {
-                Debug.Log(cells[i].action);
+                Debug.Log(cells[i].action + " : " + cells[i].condition);
             }
         }
-        foreach(Cell cell in cells)
+
+        for (int i = 0; i < cells.Length; i++)
         {
-            switch(cell.action)
+            if (cells[i].isIfStatement)
+            {
+
+            }
+            switch (cells[i].action)
             {
                 case Actions.Empty:
                     break;
                 case Actions.Walk:
-                    if (facingLeft)
-                    {
-                        body.velocity = new Vector2(-speed, body.velocity.y);
-                    } else
-                    {
-                        body.velocity = new Vector2(speed, body.velocity.y);
-                    }
+                    Walk();
                     break;
                 case Actions.Jump:
-                    if (this.GetComponent<Collider2D>().IsTouching(ground) && Time.time - lastJump > 0.1)
-                    {
-                        body.velocity = body.velocity + Vector2.up * jumpHeight;
-                        lastJump = Time.time;
-                    }
+                    Jump();
                     break;
                 case Actions.Climb:
                     break;
                 case Actions.Turn:
-                    this.GetComponent<SpriteRenderer>().flipX = !this.GetComponent<SpriteRenderer>().flipX;
-                    facingLeft = !facingLeft;
+                    Turn();
                     break;
                 default:
                     break;
             }
         }
+
         Animation();
-        body.velocity = new Vector2(speed, body.velocity.y);
-        if (OnEdge() && Time.time - lastJump > 0.1)
-        {
-            body.velocity = body.velocity + Vector2.up * jumpHeight;
-            lastJump = Time.time;
-        }
 
+        //Walk();
+        //if (OnEdge())
+        //{
+        //    Jump();
+        //}
 
-
-        //if (facingLeft)
-        //{
-        //    body.velocity = new Vector2(-speed, body.velocity.y);
-        //}
-        //else
-        //{
-        //    body.velocity = new Vector2(speed, body.velocity.y);
-        //}
-        //if (HitWall())
-        //{
-        //    this.GetComponent<SpriteRenderer>().flipX = !this.GetComponent<SpriteRenderer>().flipX;
-        //    facingLeft = !facingLeft;
-        //}
     }
     
     bool OnGround()
@@ -162,6 +135,33 @@ public class PlayerController : MonoBehaviour
             }
         }
         return false;
+    }
+
+    void Walk()
+    {
+        if (facingLeft)
+        {
+            body.velocity = new Vector2(-speed, body.velocity.y);
+        }
+        else
+        {
+            body.velocity = new Vector2(speed, body.velocity.y);
+        }
+    }
+
+    void Jump()
+    {
+        if (this.GetComponent<Collider2D>().IsTouching(ground) && Time.time - lastJump > 0.1)
+        {
+            body.velocity = body.velocity + Vector2.up * jumpHeight;
+            lastJump = Time.time;
+        }
+    }
+
+    void Turn()
+    {
+        this.GetComponent<SpriteRenderer>().flipX = !this.GetComponent<SpriteRenderer>().flipX;
+        facingLeft = !facingLeft;
     }
 
     void Animation()
