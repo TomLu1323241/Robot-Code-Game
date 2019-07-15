@@ -11,6 +11,7 @@ public class CamController : MonoBehaviour
     bool freeMove = false;
     float lastTap = -1000;
     Vector3 touchStart;
+    bool freeMoving = false;
 
     void Start()
     {
@@ -20,27 +21,34 @@ public class CamController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        changeFreeMove();
+        changeFreeMove();// Allows double tap to change camera modes
         if (freeMove)
         {
+            // Allows the player to pan around the level
             if (Input.GetMouseButtonDown(0) && inPlayArea())
             {
                 touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                freeMoving = true;
             }
-            if (Input.GetMouseButton(0) && inPlayArea())
+            if (Input.GetMouseButton(0) && freeMoving)
             {
                 Vector3 direction = touchStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 this.transform.position += direction;
             }
+            if (Input.GetMouseButtonUp(0))
+            {
+                freeMoving = false;
+            }
         } else
         {
+            // Camera is stuck to player here
             this.transform.position = player.transform.position + Vector3.back * 10 + Vector3.down * camRealativeHeight;
         }
     }
 
     void changeFreeMove()
     {
-        if (Input.GetMouseButtonDown(0) && inPlayArea())
+        if (Input.GetMouseButtonDown(0) && inPlayArea())// Checks for double tap
         {
             if (Time.time - lastTap < 0.2)
             {
@@ -50,7 +58,7 @@ public class CamController : MonoBehaviour
         }
     }
 
-    bool inPlayArea()
+    bool inPlayArea()// Checks if the taps happens in the play area
     {
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (mousePos.x > this.transform.position.x - Camera.main.orthographicSize * Camera.main.aspect &&
