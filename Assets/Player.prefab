@@ -441,7 +441,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   jumpHeight: 5.5
-  ground: {fileID: 0}
+  arrowRadius: 3
+  arrow: {fileID: 5090732635088058372, guid: 27921d405220d1c49ae31fc6ddfbcf96, type: 3}
 --- !u!95 &4823602717709616784
 Animator:
   serializedVersion: 3

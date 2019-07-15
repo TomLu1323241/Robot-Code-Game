@@ -8,7 +8,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] float speed = 3;
     [SerializeField] float jumpHeight = 5.5f;
-    [SerializeField] Collider2D ground = null;
+    [SerializeField] float arrowRadius = 2f;
+    [SerializeField] GameObject arrow = null;
 
     Cell[] cells;
     Rigidbody2D body = null;
@@ -20,6 +21,8 @@ public class PlayerController : MonoBehaviour
     Collider2D RightEdgeTrigger;
     Collider2D LeftWallTrigger;
     Collider2D RightWallTrigger;
+
+    EndTrigger endTrigger;
 
     void Start()
     {
@@ -43,11 +46,19 @@ public class PlayerController : MonoBehaviour
         RightEdgeTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[2];
         LeftWallTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[3];
         RightWallTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[4];
+
+        endTrigger = GameObject.FindObjectOfType<EndTrigger>();
+        arrow = GameObject.Instantiate(arrow);
     }
 
     void Update()
     {
+        ArrowHandler();
+        
         Animation();
+
+        CodeHandler();
+
         if (Input.GetKeyDown(KeyCode.Space))// Debugging each line
         {
             for (int i = 0; i < cells.Length; i++)
@@ -55,7 +66,10 @@ public class PlayerController : MonoBehaviour
                 Debug.Log(cells[i].action + " : " + cells[i].condition);
             }
         }
+    }
 
+    void CodeHandler()
+    {
         for (int i = 0; i < cells.Length; i++)
         {
             if (cells[i].isIfStatement)
@@ -128,18 +142,29 @@ public class PlayerController : MonoBehaviour
                     break;
             }
         }
+    }
 
-        //Walk();
-        //if (OnEdge())
-        //{
-        //    Jump();
-        //}
-
+    void ArrowHandler()
+    {
+        arrow.transform.position = Vector3.Normalize(endTrigger.transform.position - this.transform.position) * arrowRadius + this.transform.position;
+        Vector2 direction = endTrigger.transform.position - this.transform.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        Quaternion rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
+        arrow.transform.rotation = rotation;
+        if (Mathf.Abs(Vector3.Magnitude(endTrigger.transform.position - this.transform.position)) < 7)
+        {
+            if ((((Mathf.Abs(Vector3.Magnitude(endTrigger.transform.position - this.transform.position)) - 4) / 3) * 255) < 0)
+            {
+                arrow.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0);
+                return;
+            }
+            arrow.GetComponent<SpriteRenderer>().color = new Color32(255, 255, 255, (byte)(((Mathf.Abs(Vector3.Magnitude(endTrigger.transform.position - this.transform.position)) - 4) / 3) * 255));
+        }
     }
 
     bool OnGround()
     {
-        if (OnGroundTrigger.IsTouching(ground))
+        if (OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             return true;
         }
@@ -150,14 +175,14 @@ public class PlayerController : MonoBehaviour
     {
         if (facingLeft)
         {
-            if (!LeftEdgeTrigger.IsTouching(ground) && OnGroundTrigger.IsTouching(ground) && RightEdgeTrigger.IsTouching(ground))
+            if (!LeftEdgeTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")) && OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")) && RightEdgeTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")))
             {
                 return true;
             }
         }
         else
         {
-            if (!RightEdgeTrigger.IsTouching(ground) && OnGroundTrigger.IsTouching(ground) && LeftEdgeTrigger.IsTouching(ground))
+            if (!RightEdgeTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")) && OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")) && LeftEdgeTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")))
             {
                 return true;
             }
@@ -167,7 +192,7 @@ public class PlayerController : MonoBehaviour
 
     bool InMidAir()
     {
-        if (!LeftEdgeTrigger.IsTouching(ground) && !OnGroundTrigger.IsTouching(ground) && !RightEdgeTrigger.IsTouching(ground))
+        if (!LeftEdgeTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")) && !OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")) && !RightEdgeTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             return true;
         }
@@ -178,14 +203,14 @@ public class PlayerController : MonoBehaviour
     {
         if (facingLeft)
         {
-            if (LeftWallTrigger.IsTouching(ground))
+            if (LeftWallTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")))
             {
                 return true;
             }
         }
         else
         {
-            if (RightWallTrigger.IsTouching(ground))
+            if (RightWallTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")))
             {
                 return true;
             }
@@ -207,9 +232,9 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
-        if (this.GetComponent<Collider2D>().IsTouching(ground) && Time.time - lastJump > 0.1)
+        if (OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")) && Time.time - lastJump > 0.1)
         {
-            body.velocity = body.velocity + Vector2.up * jumpHeight;
+            body.velocity = new Vector2(body.velocity.x, jumpHeight);
             lastJump = Time.time;
         }
     }

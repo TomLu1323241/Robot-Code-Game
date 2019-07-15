@@ -47,7 +47,7 @@ public class CellHandler : MonoBehaviour
             bool alreadyHadCommand = false;
             for (int j = 0; j < cells[i].transform.childCount; j++)
             {
-                if (cells[i].transform.GetChild(j).GetComponent<Ticket>() != null)
+                if (cells[i].transform.GetChild(j).GetComponent<Ticket>() != null && inCell(cells[i], tickets))
                 {
                     alreadyHadCommand = true;
                 }
