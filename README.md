@@ -1,7 +1,3 @@
----
-description: This will be a explaining the basic concept of the game
----
-
 # Robot Code Game Documentation
 
 ## Basic concept of the game
