@@ -13,21 +13,22 @@ public class Ticket : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     public Conditions condition;
 
     Vector3 origin;
-    // Start is called before the first frame update
+    
     void Start()
     {
         cellHandler = GameObject.FindObjectOfType<CellHandler>();
-        origin = this.transform.localPosition;
+        origin = this.transform.localPosition;// Save initial posistion to snap back to after player misplaces it
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        this.transform.SetParent(cellHandler.transform.parent);
-        cellHandler.ResetBasedOnChild();
+        this.transform.SetParent(cellHandler.transform.parent);// Removes this ticket from the cell essentially removing this function from running
+        cellHandler.ResetBasedOnChild();// Resets the all the cells and their commands
     }
 
     public void OnDrag(PointerEventData eventData)
     {
+        // Simple follow mouse formula
         Vector3 mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 5);
         Vector3 objectPos = Camera.main.ScreenToWorldPoint(mousePos);
         transform.position = objectPos;
@@ -35,9 +36,9 @@ public class Ticket : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (!cellHandler.SnapAndSet(this.gameObject))
+        if (!cellHandler.SnapAndSet(this.gameObject))// Checks if this ticket has snapped to a posistion in one of the cells
         {
-            this.transform.localPosition = origin;
+            this.transform.localPosition = origin;// if not it resets it back to the origin
         }
     }
 }

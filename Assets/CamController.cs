@@ -71,7 +71,7 @@ public class CamController : MonoBehaviour
         return false;
     }
 
-    private void OnDrawGizmos()
+    private void OnDrawGizmos()// Draws the play area in green and draws a red box there the player will be positioned
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(this.transform.position + Vector3.up * camRealativeHeight, Vector3.one);
