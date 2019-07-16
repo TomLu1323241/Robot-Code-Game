@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Robot Code Game Documentation](README.md)
+* [Modify the code \(Actions and Conditions\)](modify-the-code-actions-and-conditions.md)
 
