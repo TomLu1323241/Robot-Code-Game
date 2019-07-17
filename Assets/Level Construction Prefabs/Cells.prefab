@@ -51,7 +51,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2d360afac12fdf4db6743e284a2e883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isIfStatement: 0
+  linesOfCommands: 0
   action: 0
+  condition: 0
+  insideIf: 0
 --- !u!222 &4221107674400452580
 CanvasRenderer:
   m_ObjectHideFlags: 0

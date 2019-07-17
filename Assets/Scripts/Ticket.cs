@@ -23,7 +23,7 @@ public class Ticket : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     public void OnBeginDrag(PointerEventData eventData)
     {
         this.transform.SetParent(cellHandler.transform.parent);// Removes this ticket from the cell essentially removing this function from running
-        cellHandler.ResetBasedOnChild();// Resets the all the cells and their commands
+        cellHandler.resetBasedOnChild();// Resets the all the cells and their commands
     }
 
     public void OnDrag(PointerEventData eventData)

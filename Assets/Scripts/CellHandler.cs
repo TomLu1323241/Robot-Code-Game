@@ -111,13 +111,13 @@ public class CellHandler : MonoBehaviour
         }
 
         // Resets the actions and conditions of every cell depending on their child
-        ResetBasedOnChild();
+        resetBasedOnChild();
         // Return if the ticket passed in is handled
         // Handled means it is now a child of a cell and not handled means it was dragged into an improper position
         return handled;
     }
 
-    public void ResetBasedOnChild()
+    public void resetBasedOnChild()
     {
         for (int i = 0; i < cells.Length; i++)// Loops though every cell
         {
@@ -155,16 +155,5 @@ public class CellHandler : MonoBehaviour
             return true;
         }
         return false;
-    }
-
-    private void OnDrawGizmos()
-    {
-        // Draws each cell
-        RectTransform[] cells = this.GetComponentsInChildren<RectTransform>();
-        Gizmos.color = Color.blue;
-        for (int i = 0; i < cells.Length; i++)
-        {
-            Gizmos.DrawWireCube(cells[i].transform.position, new Vector3(cells[i].rect.width - .2f, cells[i].rect.height - .2f));
-        }
     }
 }
