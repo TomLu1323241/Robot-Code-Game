@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     bool facingLeft = false;
 
     // Triggers to use for conditions
+    Collider2D BodyCollider;
     Collider2D OnGroundTrigger;
     Collider2D LeftEdgeTrigger;
     Collider2D RightEdgeTrigger;
@@ -28,6 +29,7 @@ public class PlayerController : MonoBehaviour
     readonly string GROUND = "Ground";
     readonly string JUMPABLE_OBSTACLES = "Jumpable Obstacles";
     readonly string CRATE = "Crate";
+    readonly string INTERACTABLE = "Interactable";
 
     // Find where the end goal is
     EndTrigger endTrigger;
@@ -35,6 +37,7 @@ public class PlayerController : MonoBehaviour
     // Timers
     float lastJump = 0;
     float lastNearObstacles = 0;
+    float lastTurn = 0;
 
     void Start()
     {
@@ -57,6 +60,7 @@ public class PlayerController : MonoBehaviour
         // Initialize components
         body = this.GetComponent<Rigidbody2D>();
 
+        BodyCollider = this.GetComponent<Collider2D>();
         OnGroundTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[0];
         LeftEdgeTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[1];
         RightEdgeTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[2];
@@ -112,6 +116,9 @@ public class PlayerController : MonoBehaviour
                     case Conditions.OnEdge:
                         ifRunning = OnEdge();
                         break;
+                    case Conditions.OnButton:
+                        ifRunning = OnButton();
+                        break;
                     case Conditions.InMidAir:
                         ifRunning = InMidAir();
                         break;
@@ -137,10 +144,13 @@ public class PlayerController : MonoBehaviour
                             case Actions.Jump:
                                 Jump();
                                 break;
-                            case Actions.Climb:
-                                break;
                             case Actions.Turn:
                                 Turn();
+                                break;
+                            case Actions.Interact:
+                                Interact();
+                                break;
+                            case Actions.Climb:
                                 break;
                             default:
                                 break;
@@ -159,34 +169,18 @@ public class PlayerController : MonoBehaviour
                 case Actions.Jump:
                     Jump();
                     break;
-                case Actions.Climb:
-                    break;
                 case Actions.Turn:
                     Turn();
+                    break;
+                case Actions.Interact:
+                    Interact();
+                    break;
+                case Actions.Climb:
                     break;
                 default:
                     break;
             }
         }
-    }
-
-    private bool HitCrate()
-    {
-        if (facingLeft)// Depending on which way the robot is facing check if it hit a wall
-        {
-            if (LeftWallTrigger.IsTouchingLayers(LayerMask.GetMask(CRATE)))
-            {
-                return true;
-            }
-        }
-        else
-        {
-            if (RightWallTrigger.IsTouchingLayers(LayerMask.GetMask(CRATE)))
-            {
-                return true;
-            }
-        }
-        return false;
     }
 
     void ArrowHandler()
@@ -210,6 +204,25 @@ public class PlayerController : MonoBehaviour
             }
             arrow.GetComponent<SpriteRenderer>().color = new Color32(255, 255, 255, (byte)(((Mathf.Abs(Vector3.Magnitude(endTrigger.transform.position - this.transform.position)) - 4) / 3) * 255));
         }
+    }
+
+    bool HitCrate()
+    {
+        if (facingLeft)// Depending on which way the robot is facing check if it hit a wall
+        {
+            if (LeftWallTrigger.IsTouchingLayers(LayerMask.GetMask(CRATE)))
+            {
+                return true;
+            }
+        }
+        else
+        {
+            if (RightWallTrigger.IsTouchingLayers(LayerMask.GetMask(CRATE)))
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
     bool OnGround()
@@ -291,6 +304,15 @@ public class PlayerController : MonoBehaviour
         return false;
     }
 
+    bool OnButton()
+    {
+        if (BodyCollider.IsTouchingLayers(LayerMask.GetMask(INTERACTABLE)))
+        {
+            return true;
+        }
+        return false;
+    }
+
     void Walk()
     {
         if (facingLeft)// Depending on which way the robot is facing, walk in that direction
@@ -314,8 +336,24 @@ public class PlayerController : MonoBehaviour
 
     void Turn()
     {
-        this.GetComponent<SpriteRenderer>().flipX = !this.GetComponent<SpriteRenderer>().flipX;// Flips the sprite
-        facingLeft = !facingLeft;// Flips which way its facing
+        if (Time.time - lastTurn > 0.1)
+        {
+            this.GetComponent<SpriteRenderer>().flipX = !this.GetComponent<SpriteRenderer>().flipX;// Flips the sprite
+            facingLeft = !facingLeft;// Flips which way its facing
+            lastTurn = Time.time;
+        }
+    }
+
+    void Interact()
+    {
+        Collider2D[] cols = Physics2D.OverlapAreaAll(this.transform.position + Vector3.down + Vector3.left * .5f, this.transform.position + Vector3.up + Vector3.right * .5f);
+        foreach(Collider2D col in cols)
+        {
+            if ((Interactions)col.GetComponent(typeof(Interactions)) != null)
+            {
+                ((Interactions)col.GetComponent(typeof(Interactions))).Interact();
+            }
+        }
     }
 
     void Animation()

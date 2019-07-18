@@ -30,6 +30,15 @@ EditorBuildSettings:
     path: Assets/Levels/Level 8 (Platforms).unity
     guid: 08267a7719a1d9b49b4ef7f8a12df71a
   - enabled: 1
+    path: Assets/Levels/Level 9 (Barrel).unity
+    guid: ca9ddeb14e78d2445ba7e78ff6e0b213
+  - enabled: 1
+    path: Assets/Levels/Level 10 (Pushable Crates).unity
+    guid: 2ea86218749861a4e919724dbb15cd98
+  - enabled: 1
+    path: Assets/Levels/Level 11 (Button opens door).unity
+    guid: 5fb5301fbab28cb439ec236e840ce546
+  - enabled: 1
     path: Assets/Levels/Test World.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

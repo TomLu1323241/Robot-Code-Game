@@ -38,7 +38,13 @@ public class Ticket : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     {
         if (!cellHandler.SnapAndSet(this.gameObject))// Checks if this ticket has snapped to a posistion in one of the cells
         {
-            this.transform.localPosition = origin;// if not it resets it back to the origin
+            Reset();
         }
+    }
+
+    public void Reset()
+    {
+        this.transform.localPosition = origin;// if not it resets it back to the origin
+        this.transform.SetParent(cellHandler.transform.parent);
     }
 }

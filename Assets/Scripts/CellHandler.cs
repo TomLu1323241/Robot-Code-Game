@@ -47,19 +47,15 @@ public class CellHandler : MonoBehaviour
         bool handled = false;// Checks if the ticket passed into the cells is handled
         // Loop through cells to find optimal cells for the ticket
         // If optimal cell is found set the ticket as its child
+        Ticket original = null;
         for (int i = 0; i < cells.Length; i++)
         {
-            bool alreadyHadCommand = false;// Checks if the cell already has a command
-            for (int j = 0; j < cells[i].transform.childCount; j++)// Loops though the children of the cell to find a ticket
+            for (int j = 0; j < cells[i].transform.childCount; j++)// Loops though the children of the cell to find a ticket and maybe swap
             {
                 if (cells[i].transform.GetChild(j).GetComponent<Ticket>() != null && inCell(cells[i], tickets))
                 {
-                    alreadyHadCommand = true;
+                    original = cells[i].transform.GetChild(j).GetComponent<Ticket>();
                 }
-            }
-            if (alreadyHadCommand)
-            {
-                break;
             }
 
             // Check if the ticket is both a condidtion and the user dragged it into a if cell
@@ -108,6 +104,14 @@ public class CellHandler : MonoBehaviour
                 tickets.transform.SetParent(cells[i].transform);
                 tickets.transform.localPosition = new Vector3(-Camera.main.orthographicSize * Camera.main.aspect + indentation + tickets.GetComponent<RectTransform>().rect.width / 2, 0);
             }
+        }
+
+        // Removes the original swaps to the new one
+        if (original != null && handled)
+        {
+            // You will question why is there two and how this works and so will I...
+            original.Reset();
+            original.Reset();
         }
 
         // Resets the actions and conditions of every cell depending on their child

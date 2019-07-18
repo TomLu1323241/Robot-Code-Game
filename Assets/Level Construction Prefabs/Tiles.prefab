@@ -1840,7 +1840,7 @@ CompositeCollider2D:
   m_GameObject: {fileID: 2692864481461227090}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 6ab851013b81b7245b69ff78d37fcd67, type: 2}
+  m_Material: {fileID: 6200000, guid: 0a67decb440bdb04da7a80e1eb01faca, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1851,56 +1851,38 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 2692864481461227092}
     m_ColliderPaths:
-    - - X: -90000000
+    - - X: -40000000
         Y: 90000000
-      - X: -250000000
+      - X: -310000000
         Y: 90000000
-      - X: -250000000
-        Y: 0
-      - X: -210000000
-        Y: 0
-      - X: -210000000
-        Y: -90000000
-      - X: -90000000
-        Y: -90000000
-    - - X: -190000000
-        Y: -70000000
-      - X: -190000000
-        Y: 20000000
-      - X: -230000000
-        Y: 20000000
-      - X: -230000000
+      - X: -310000000
+        Y: -10000000
+      - X: -40000000
+        Y: -10000000
+    - - X: -290000000
+        Y: 10000000
+      - X: -290000000
         Y: 70000000
-      - X: -110000000
+      - X: -60000000
         Y: 70000000
-      - X: -110000000
-        Y: -20000000
-      - X: -170000000
-        Y: -20000000
-      - X: -170000000
-        Y: -40000000
-      - X: -110000000
-        Y: -40000000
-      - X: -110000000
-        Y: -70000000
+      - X: -60000000
+        Y: 30000000
+      - X: -150000000
+        Y: 30000000
+      - X: -150000000
+        Y: 10000000
   m_CompositePaths:
     m_Paths:
-    - - {x: -9, y: 9}
-      - {x: -25, y: 9}
-      - {x: -25, y: 0}
-      - {x: -21, y: 0}
-      - {x: -21, y: -9}
-      - {x: -9, y: -9}
-    - - {x: -19, y: -7}
-      - {x: -19, y: 2}
-      - {x: -23, y: 2}
-      - {x: -23, y: 7}
-      - {x: -11, y: 7}
-      - {x: -11, y: -2}
-      - {x: -17, y: -2}
-      - {x: -17, y: -4}
-      - {x: -11, y: -4}
-      - {x: -11, y: -7}
+    - - {x: -4, y: 9}
+      - {x: -31, y: 9}
+      - {x: -31, y: -1}
+      - {x: -4, y: -1}
+    - - {x: -29, y: 1}
+      - {x: -29, y: 7}
+      - {x: -6, y: 7}
+      - {x: -6, y: 3}
+      - {x: -15, y: 3}
+      - {x: -15, y: 1}
   m_VertexDistance: 0.0005
 --- !u!19719996 &2692864481461227092
 TilemapCollider2D:
@@ -1933,7 +1915,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 6200000, guid: 6ab851013b81b7245b69ff78d37fcd67, type: 2}
+  m_Material: {fileID: 6200000, guid: 0a67decb440bdb04da7a80e1eb01faca, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0

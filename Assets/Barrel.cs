@@ -5,8 +5,8 @@ using UnityEngine;
 public class Barrel : MonoBehaviour
 {
 
-    [SerializeField] bool goingLeft;
-    [SerializeField] float speed;
+    [SerializeField] bool goingLeft = true;
+    [SerializeField] float speed = 2;
 
     void Start()
     {
