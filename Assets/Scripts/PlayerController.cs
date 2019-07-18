@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
 
     Cell[] cells;
     Rigidbody2D body = null;
-    float lastJump = 0;
     bool facingLeft = false;
 
     // Triggers to use for conditions
@@ -22,9 +21,20 @@ public class PlayerController : MonoBehaviour
     Collider2D RightEdgeTrigger;
     Collider2D LeftWallTrigger;
     Collider2D RightWallTrigger;
+    Collider2D LeftNearTrigger;
+    Collider2D RightNearTrigger;
+
+    // Layers
+    readonly string GROUND = "Ground";
+    readonly string JUMPABLE_OBSTACLES = "Jumpable Obstacles";
+    readonly string CRATE = "Crate";
 
     // Find where the end goal is
     EndTrigger endTrigger;
+
+    // Timers
+    float lastJump = 0;
+    float lastNearObstacles = 0;
 
     void Start()
     {
@@ -52,6 +62,8 @@ public class PlayerController : MonoBehaviour
         RightEdgeTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[2];
         LeftWallTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[3];
         RightWallTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[4];
+        LeftNearTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[5];
+        RightNearTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[6];
 
         endTrigger = GameObject.FindObjectOfType<EndTrigger>();
         arrow = GameObject.Instantiate(arrow);
@@ -94,11 +106,17 @@ public class PlayerController : MonoBehaviour
                     case Conditions.HitWall:
                         ifRunning = HitWall();
                         break;
+                    case Conditions.HitCrate:
+                        ifRunning = HitCrate();
+                        break;
                     case Conditions.OnEdge:
                         ifRunning = OnEdge();
                         break;
                     case Conditions.InMidAir:
                         ifRunning = InMidAir();
+                        break;
+                    case Conditions.NearBarrel:
+                        ifRunning = NearBarrel();
                         break;
                     case Conditions.OnLadder:
                         break;
@@ -152,6 +170,25 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private bool HitCrate()
+    {
+        if (facingLeft)// Depending on which way the robot is facing check if it hit a wall
+        {
+            if (LeftWallTrigger.IsTouchingLayers(LayerMask.GetMask(CRATE)))
+            {
+                return true;
+            }
+        }
+        else
+        {
+            if (RightWallTrigger.IsTouchingLayers(LayerMask.GetMask(CRATE)))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     void ArrowHandler()
     {
         // Sets the posistion of the arrow so it is always a certain radius away form the player
@@ -178,7 +215,7 @@ public class PlayerController : MonoBehaviour
     bool OnGround()
     {
         // Check if the ground collider is touching the ground
-        if (OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        if (OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask(GROUND)))
         {
             return true;
         }
@@ -190,14 +227,14 @@ public class PlayerController : MonoBehaviour
         // Depending on which way the robot is facing check if it is on edge
         if (facingLeft)
         {
-            if (!LeftEdgeTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")) && OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")) && RightEdgeTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")))
+            if (!LeftEdgeTrigger.IsTouchingLayers(LayerMask.GetMask(GROUND)) && OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask(GROUND)) && RightEdgeTrigger.IsTouchingLayers(LayerMask.GetMask(GROUND)))
             {
                 return true;
             }
         }
         else
         {
-            if (!RightEdgeTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")) && OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")) && LeftEdgeTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")))
+            if (!RightEdgeTrigger.IsTouchingLayers(LayerMask.GetMask(GROUND)) && OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask(GROUND)) && LeftEdgeTrigger.IsTouchingLayers(LayerMask.GetMask(GROUND)))
             {
                 return true;
             }
@@ -208,7 +245,7 @@ public class PlayerController : MonoBehaviour
     bool InMidAir()
     {
         // Check if the 3 bottom colliders are not touching anything
-        if (!LeftEdgeTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")) && !OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")) && !RightEdgeTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        if (!LeftEdgeTrigger.IsTouchingLayers(LayerMask.GetMask(GROUND)) && !OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask(GROUND)) && !RightEdgeTrigger.IsTouchingLayers(LayerMask.GetMask(GROUND)))
         {
             return true;
         }
@@ -219,15 +256,35 @@ public class PlayerController : MonoBehaviour
     {
         if (facingLeft)// Depending on which way the robot is facing check if it hit a wall
         {
-            if (LeftWallTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")))
+            if (LeftWallTrigger.IsTouchingLayers(LayerMask.GetMask(GROUND)))
             {
                 return true;
             }
         }
         else
         {
-            if (RightWallTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")))
+            if (RightWallTrigger.IsTouchingLayers(LayerMask.GetMask(GROUND)))
             {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    bool NearBarrel()
+    {
+        if (facingLeft)
+        {
+            if (LeftNearTrigger.IsTouchingLayers(LayerMask.GetMask(JUMPABLE_OBSTACLES)) && Time.time - lastNearObstacles > 0.1)
+            {
+                lastNearObstacles = Time.time;
+                return true;
+            }
+        } else
+        {
+            if (RightNearTrigger.IsTouchingLayers(LayerMask.GetMask(JUMPABLE_OBSTACLES)) && Time.time - lastNearObstacles > 0.1)
+            {
+                lastNearObstacles = Time.time;
                 return true;
             }
         }
@@ -248,7 +305,7 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
-        if (OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask("Ground")) && Time.time - lastJump > 0.1)// If on ground jump the time stuff is to prevent spam jump
+        if (OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask(GROUND)) || OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask(CRATE)) && Time.time - lastJump > 0.1)// If on ground jump the time stuff is to prevent spam jump
         {
             body.velocity = new Vector2(body.velocity.x, jumpHeight);
             lastJump = Time.time;

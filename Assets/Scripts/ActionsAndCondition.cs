@@ -13,6 +13,8 @@ public enum Conditions
     OnGround,
     OnEdge,
     HitWall,
+    HitCrate,
     InMidAir,
+    NearBarrel,
     OnLadder
 }
