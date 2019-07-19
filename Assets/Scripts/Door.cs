@@ -9,7 +9,6 @@ public class Door : MonoBehaviour, EnvironmentAcions
 
     public void Action()
     {
-        Debug.Log(this.transform.forward);
         this.GetComponent<Rigidbody2D>().velocity = this.transform.up * speed;
         this.GetComponent<Rigidbody2D>().drag = 0;
     }
