@@ -16,6 +16,7 @@ public class CamController : MonoBehaviour
     void Start()
     {
         player = GameObject.FindObjectOfType<PlayerController>();
+        this.transform.position = player.transform.position + Vector3.back * 10 + Vector3.down * camRealativeHeight;
     }
 
     // Update is called once per frame
@@ -42,7 +43,14 @@ public class CamController : MonoBehaviour
         } else
         {
             // Camera is stuck to player here
-            this.transform.position = player.transform.position + Vector3.back * 10 + Vector3.down * camRealativeHeight;
+            if (Vector3.Magnitude(player.transform.position + Vector3.back * 10 + Vector3.down * camRealativeHeight - this.transform.position) > 1)
+            {
+                this.transform.position = Vector3.Lerp(this.transform.position, player.transform.position + Vector3.back * 10 + Vector3.down * camRealativeHeight, 0.3f);            }
+            else
+            {
+                this.transform.position = player.transform.position + Vector3.back * 10 + Vector3.down * camRealativeHeight;
+            }
+            
         }
     }
 

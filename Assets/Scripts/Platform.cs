@@ -3,8 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Platform : MonoBehaviour
+public class Platform : MonoBehaviour, EnvironmentAcions
 {
+    [SerializeField] bool needsTrigger = false;
+
     [SerializeField] bool horizontal = true;
     [SerializeField] bool startBotLeft = true;
     [SerializeField] float size = 5;
@@ -14,6 +16,7 @@ public class Platform : MonoBehaviour
     Vector3 rightTopTarget;
 
     bool movingTopRight = true;
+    bool running = false;
 
     private void OnCollisionEnter2D(Collision2D col)
     {
@@ -35,6 +38,14 @@ public class Platform : MonoBehaviour
 
     private void Start()
     {
+        if (needsTrigger)
+        {
+            running = false;
+        } else
+        {
+            running = true;
+        }
+        
         if (startBotLeft)
         {
             movingTopRight = true;
@@ -78,29 +89,32 @@ public class Platform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (horizontal)
+        if (running)
         {
-            if (movingTopRight)
+            if (horizontal)
             {
-                this.transform.position = this.transform.position + Vector3.right * speed * Time.deltaTime;
+                if (movingTopRight)
+                {
+                    this.transform.position = this.transform.position + Vector3.right * speed * Time.deltaTime;
+                }
+                else
+                {
+                    this.transform.position = this.transform.position + Vector3.left * speed * Time.deltaTime;
+                }
             }
             else
             {
-                this.transform.position = this.transform.position + Vector3.left * speed * Time.deltaTime;
+                if (movingTopRight)
+                {
+                    this.transform.position = this.transform.position + Vector3.up * speed * Time.deltaTime;
+                }
+                else
+                {
+                    this.transform.position = this.transform.position + Vector3.down * speed * Time.deltaTime;
+                }
             }
+            ChangeDirection();
         }
-        else
-        {
-            if (movingTopRight)
-            {
-                this.transform.position = this.transform.position + Vector3.up * speed * Time.deltaTime;
-            }
-            else
-            {
-                this.transform.position = this.transform.position + Vector3.down * speed * Time.deltaTime;
-            }
-        }
-        ChangeDirection();
     }
 
     private void ChangeDirection()
@@ -168,5 +182,10 @@ public class Platform : MonoBehaviour
                 Gizmos.DrawLine(this.transform.position + Vector3.down * halfHeight, this.transform.position - Vector3.up * size + Vector3.down * halfHeight);
             }
         }
+    }
+
+    public void Action()
+    {
+        running = true;
     }
 }

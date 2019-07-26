@@ -1,0 +1,5576 @@
+fileFormatVersion: 2
+guid: a18dfbdba09faea4bb5e8249dbaf015c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8492907522963562343
+    second: RoboCode_Sprite_0
+  - first:
+      213: -7552865967638497432
+    second: RoboCode_Sprite_1
+  - first:
+      213: -4117060257484735061
+    second: RoboCode_Sprite_2
+  - first:
+      213: -4924220513545406747
+    second: RoboCode_Sprite_3
+  - first:
+      213: 2702365827300937088
+    second: RoboCode_Sprite_4
+  - first:
+      213: 5409061530525599397
+    second: RoboCode_Sprite_5
+  - first:
+      213: 3001275380017784555
+    second: RoboCode_Sprite_6
+  - first:
+      213: 5651001854512714317
+    second: RoboCode_Sprite_7
+  - first:
+      213: 2604016944448788661
+    second: RoboCode_Sprite_8
+  - first:
+      213: 7988260935619734010
+    second: RoboCode_Sprite_9
+  - first:
+      213: -655114568061791260
+    second: RoboCode_Sprite_10
+  - first:
+      213: 3119324294521409231
+    second: RoboCode_Sprite_11
+  - first:
+      213: -723700147431405639
+    second: RoboCode_Sprite_12
+  - first:
+      213: -4389846073485105784
+    second: RoboCode_Sprite_13
+  - first:
+      213: 2066932066954329720
+    second: RoboCode_Sprite_14
+  - first:
+      213: -1861964029474517216
+    second: RoboCode_Sprite_15
+  - first:
+      213: -2733209217475953668
+    second: RoboCode_Sprite_16
+  - first:
+      213: 7678488437978006219
+    second: RoboCode_Sprite_17
+  - first:
+      213: -9174477999104236472
+    second: RoboCode_Sprite_18
+  - first:
+      213: -9129855661152446086
+    second: RoboCode_Sprite_19
+  - first:
+      213: 3112413815486830265
+    second: RoboCode_Sprite_20
+  - first:
+      213: 4681216379047027569
+    second: RoboCode_Sprite_21
+  - first:
+      213: 4572164323227430476
+    second: RoboCode_Sprite_22
+  - first:
+      213: -8589535818599249692
+    second: RoboCode_Sprite_23
+  - first:
+      213: 8775438407323417600
+    second: RoboCode_Sprite_24
+  - first:
+      213: 5985019403449122486
+    second: RoboCode_Sprite_25
+  - first:
+      213: -4508793435397632187
+    second: RoboCode_Sprite_26
+  - first:
+      213: 9141758613641452325
+    second: RoboCode_Sprite_27
+  - first:
+      213: -2373411140759208863
+    second: RoboCode_Sprite_28
+  - first:
+      213: -8722276044028608782
+    second: RoboCode_Sprite_29
+  - first:
+      213: 6360614212060978909
+    second: RoboCode_Sprite_30
+  - first:
+      213: 6611121251203408089
+    second: RoboCode_Sprite_31
+  - first:
+      213: 6221677976585832749
+    second: RoboCode_Sprite_32
+  - first:
+      213: -3524719617147313523
+    second: RoboCode_Sprite_33
+  - first:
+      213: -1824634681019510448
+    second: RoboCode_Sprite_34
+  - first:
+      213: -6393049708213183568
+    second: RoboCode_Sprite_35
+  - first:
+      213: -5183901857765638363
+    second: RoboCode_Sprite_36
+  - first:
+      213: -8968462653247503655
+    second: RoboCode_Sprite_37
+  - first:
+      213: -7997394941029919127
+    second: RoboCode_Sprite_38
+  - first:
+      213: -9004412730046104631
+    second: RoboCode_Sprite_39
+  - first:
+      213: -6205416502791157779
+    second: RoboCode_Sprite_40
+  - first:
+      213: -1691816959632693389
+    second: RoboCode_Sprite_41
+  - first:
+      213: -5574187173987905371
+    second: RoboCode_Sprite_42
+  - first:
+      213: -3885649699707520166
+    second: RoboCode_Sprite_43
+  - first:
+      213: 8082096894757754592
+    second: RoboCode_Sprite_44
+  - first:
+      213: -2544160852195850444
+    second: RoboCode_Sprite_45
+  - first:
+      213: 1864540806701152127
+    second: RoboCode_Sprite_46
+  - first:
+      213: 6470312023470941503
+    second: RoboCode_Sprite_47
+  - first:
+      213: -7709620858008229073
+    second: RoboCode_Sprite_48
+  - first:
+      213: 3938243017083035173
+    second: RoboCode_Sprite_49
+  - first:
+      213: -4077568071000698289
+    second: RoboCode_Sprite_50
+  - first:
+      213: -8418774727311507466
+    second: RoboCode_Sprite_51
+  - first:
+      213: -5103579363416529346
+    second: RoboCode_Sprite_52
+  - first:
+      213: 1798381519397370858
+    second: RoboCode_Sprite_53
+  - first:
+      213: 711694321059716806
+    second: RoboCode_Sprite_54
+  - first:
+      213: 5799680403991511307
+    second: RoboCode_Sprite_55
+  - first:
+      213: -8056424315230459743
+    second: RoboCode_Sprite_56
+  - first:
+      213: -7983931198425087721
+    second: RoboCode_Sprite_57
+  - first:
+      213: -7900568350571243167
+    second: RoboCode_Sprite_58
+  - first:
+      213: -7035601324043843212
+    second: RoboCode_Sprite_59
+  - first:
+      213: -3165388587532130219
+    second: RoboCode_Sprite_60
+  - first:
+      213: -1901229381824549527
+    second: RoboCode_Sprite_61
+  - first:
+      213: -4265920480286366920
+    second: RoboCode_Sprite_62
+  - first:
+      213: -5004165847323420174
+    second: RoboCode_Sprite_63
+  - first:
+      213: 817174286652250821
+    second: RoboCode_Sprite_64
+  - first:
+      213: 7950039436633360501
+    second: RoboCode_Sprite_65
+  - first:
+      213: -7961086098379864274
+    second: RoboCode_Sprite_66
+  - first:
+      213: 1053895703407674808
+    second: RoboCode_Sprite_67
+  - first:
+      213: 1496378826631923287
+    second: RoboCode_Sprite_68
+  - first:
+      213: 950542199550891951
+    second: RoboCode_Sprite_69
+  - first:
+      213: -7067228237015435025
+    second: RoboCode_Sprite_70
+  - first:
+      213: -2849242740756045818
+    second: RoboCode_Sprite_71
+  - first:
+      213: -1693513490518502581
+    second: RoboCode_Sprite_72
+  - first:
+      213: 8686783887412150833
+    second: RoboCode_Sprite_73
+  - first:
+      213: -5654333988024953408
+    second: RoboCode_Sprite_74
+  - first:
+      213: -8365016228183033761
+    second: RoboCode_Sprite_75
+  - first:
+      213: 4097733774413725554
+    second: RoboCode_Sprite_76
+  - first:
+      213: -5250050564991383290
+    second: RoboCode_Sprite_77
+  - first:
+      213: 7099740300489652458
+    second: RoboCode_Sprite_78
+  - first:
+      213: -4083794515095356523
+    second: RoboCode_Sprite_79
+  - first:
+      213: 4146633575377748611
+    second: RoboCode_Sprite_80
+  - first:
+      213: 4474769286114390014
+    second: RoboCode_Sprite_81
+  - first:
+      213: -4956389747863230402
+    second: RoboCode_Sprite_82
+  - first:
+      213: 2258780773889944375
+    second: RoboCode_Sprite_83
+  - first:
+      213: 2509586175006636892
+    second: RoboCode_Sprite_84
+  - first:
+      213: -4614397860992032465
+    second: RoboCode_Sprite_85
+  - first:
+      213: 1572504415399777490
+    second: RoboCode_Sprite_86
+  - first:
+      213: 1431591931377801693
+    second: RoboCode_Sprite_87
+  - first:
+      213: -7371016076289567691
+    second: RoboCode_Sprite_88
+  - first:
+      213: -5904425332178340591
+    second: RoboCode_Sprite_89
+  - first:
+      213: 5523663266244240032
+    second: RoboCode_Sprite_90
+  - first:
+      213: -5467779106848118130
+    second: RoboCode_Sprite_91
+  - first:
+      213: -4001307817913222257
+    second: RoboCode_Sprite_92
+  - first:
+      213: -4574519294984271787
+    second: RoboCode_Sprite_93
+  - first:
+      213: 5067816583551123501
+    second: RoboCode_Sprite_94
+  - first:
+      213: -7529816472546934637
+    second: RoboCode_Sprite_95
+  - first:
+      213: -8677351489012948340
+    second: RoboCode_Sprite_96
+  - first:
+      213: 5931425521300102203
+    second: RoboCode_Sprite_97
+  - first:
+      213: 4611878680926167564
+    second: RoboCode_Sprite_98
+  - first:
+      213: 1011483174258576768
+    second: RoboCode_Sprite_99
+  - first:
+      213: 395170634237954913
+    second: RoboCode_Sprite_100
+  - first:
+      213: -5618830755370016770
+    second: RoboCode_Sprite_101
+  - first:
+      213: 7097301977384582274
+    second: RoboCode_Sprite_102
+  - first:
+      213: 9201912900309877653
+    second: RoboCode_Sprite_103
+  - first:
+      213: -8868597506247884146
+    second: RoboCode_Sprite_104
+  - first:
+      213: 1167003098639817992
+    second: RoboCode_Sprite_105
+  - first:
+      213: -7277814188286884303
+    second: RoboCode_Sprite_106
+  - first:
+      213: 4164796240227495223
+    second: RoboCode_Sprite_107
+  - first:
+      213: -5997493993032977626
+    second: RoboCode_Sprite_108
+  - first:
+      213: 7362296991276305119
+    second: RoboCode_Sprite_109
+  - first:
+      213: -9222287688885364313
+    second: RoboCode_Sprite_110
+  - first:
+      213: 3610530642324794585
+    second: RoboCode_Sprite_111
+  - first:
+      213: -4388297153365087700
+    second: RoboCode_Sprite_112
+  - first:
+      213: -8553224446289661707
+    second: RoboCode_Sprite_113
+  - first:
+      213: -1648131097204277612
+    second: RoboCode_Sprite_114
+  - first:
+      213: -3944054429814233230
+    second: RoboCode_Sprite_115
+  - first:
+      213: 3033493304934223946
+    second: RoboCode_Sprite_116
+  - first:
+      213: 1018583484902328764
+    second: RoboCode_Sprite_117
+  - first:
+      213: 4305312027071534202
+    second: RoboCode_Sprite_118
+  - first:
+      213: -881690839501646667
+    second: RoboCode_Sprite_119
+  - first:
+      213: 4152684746428205128
+    second: RoboCode_Sprite_120
+  - first:
+      213: -7271850097186407248
+    second: RoboCode_Sprite_121
+  - first:
+      213: -170112161393994753
+    second: RoboCode_Sprite_122
+  - first:
+      213: -5205389765386024925
+    second: RoboCode_Sprite_123
+  - first:
+      213: -8671399716528546725
+    second: RoboCode_Sprite_124
+  - first:
+      213: 3000147145525543487
+    second: RoboCode_Sprite_125
+  - first:
+      213: 3605546595377500455
+    second: RoboCode_Sprite_126
+  - first:
+      213: 3055725694601451120
+    second: RoboCode_Sprite_127
+  - first:
+      213: 73464941542603096
+    second: RoboCode_Sprite_128
+  - first:
+      213: 3302083990553251812
+    second: RoboCode_Sprite_129
+  - first:
+      213: -7660846984088003982
+    second: RoboCode_Sprite_130
+  - first:
+      213: 4367121680704592306
+    second: RoboCode_Sprite_131
+  - first:
+      213: -2901384564939689409
+    second: RoboCode_Sprite_132
+  - first:
+      213: 1957607264882863629
+    second: RoboCode_Sprite_133
+  - first:
+      213: -1068540835501948999
+    second: RoboCode_Sprite_134
+  - first:
+      213: -4772541916283582052
+    second: RoboCode_Sprite_135
+  - first:
+      213: 438439685873477686
+    second: RoboCode_Sprite_136
+  - first:
+      213: -5157960209570628408
+    second: RoboCode_Sprite_137
+  - first:
+      213: 3151132961309568167
+    second: RoboCode_Sprite_138
+  - first:
+      213: -8459590005481273087
+    second: RoboCode_Sprite_139
+  - first:
+      213: 2460967781631412992
+    second: RoboCode_Sprite_140
+  - first:
+      213: -1776737885300293505
+    second: RoboCode_Sprite_141
+  - first:
+      213: 3291812016410074980
+    second: RoboCode_Sprite_142
+  - first:
+      213: -5107459285765818211
+    second: RoboCode_Sprite_143
+  - first:
+      213: -5977199159946662159
+    second: RoboCode_Sprite_144
+  - first:
+      213: 5999841364626840316
+    second: RoboCode_Sprite_145
+  - first:
+      213: -8568962681460115944
+    second: RoboCode_Sprite_146
+  - first:
+      213: 8755691484051217105
+    second: RoboCode_Sprite_147
+  - first:
+      213: -6612731854729799688
+    second: RoboCode_Sprite_148
+  - first:
+      213: -3861441282453213786
+    second: RoboCode_Sprite_149
+  - first:
+      213: 3719223911688921559
+    second: RoboCode_Sprite_150
+  - first:
+      213: 2142076794653290538
+    second: RoboCode_Sprite_151
+  - first:
+      213: -7562842590463197300
+    second: RoboCode_Sprite_152
+  - first:
+      213: 4944669975456631116
+    second: RoboCode_Sprite_153
+  - first:
+      213: 6837071044283190918
+    second: RoboCode_Sprite_154
+  - first:
+      213: 342900667285494759
+    second: RoboCode_Sprite_155
+  - first:
+      213: 5509875815005614150
+    second: RoboCode_Sprite_156
+  - first:
+      213: -5395445674918660294
+    second: RoboCode_Sprite_157
+  - first:
+      213: -1306677998239109422
+    second: RoboCode_Sprite_158
+  - first:
+      213: 3630638388949334123
+    second: RoboCode_Sprite_159
+  - first:
+      213: 8555193019365806921
+    second: RoboCode_Sprite_160
+  - first:
+      213: -8252110197501469407
+    second: RoboCode_Sprite_161
+  - first:
+      213: -6650093169185857477
+    second: RoboCode_Sprite_162
+  - first:
+      213: -5708193448359233011
+    second: RoboCode_Sprite_163
+  - first:
+      213: -2097701655267735752
+    second: RoboCode_Sprite_164
+  - first:
+      213: 887733507134183309
+    second: RoboCode_Sprite_165
+  - first:
+      213: 6893868133742369025
+    second: RoboCode_Sprite_166
+  - first:
+      213: 8241610280959273527
+    second: RoboCode_Sprite_167
+  - first:
+      213: 3979148785829448669
+    second: RoboCode_Sprite_168
+  - first:
+      213: 991066321719342682
+    second: RoboCode_Sprite_169
+  - first:
+      213: -9188390857245300255
+    second: RoboCode_Sprite_170
+  - first:
+      213: -138956608365483064
+    second: RoboCode_Sprite_171
+  - first:
+      213: 6240071925683229674
+    second: RoboCode_Sprite_172
+  - first:
+      213: 4633423750872457814
+    second: RoboCode_Sprite_173
+  - first:
+      213: 7116352601990527329
+    second: RoboCode_Sprite_174
+  - first:
+      213: -2547372093630069232
+    second: RoboCode_Sprite_175
+  - first:
+      213: 8493887364977918986
+    second: RoboCode_Sprite_176
+  - first:
+      213: -2205398315785586839
+    second: RoboCode_Sprite_177
+  - first:
+      213: 3411961331906388333
+    second: RoboCode_Sprite_178
+  - first:
+      213: 5181370694343503162
+    second: RoboCode_Sprite_179
+  - first:
+      213: 2581073343938760018
+    second: RoboCode_Sprite_180
+  - first:
+      213: 6800702334775966971
+    second: RoboCode_Sprite_181
+  - first:
+      213: -2928197044521989161
+    second: RoboCode_Sprite_182
+  - first:
+      213: 7882838229439350862
+    second: RoboCode_Sprite_183
+  - first:
+      213: -8649561068439319898
+    second: RoboCode_Sprite_184
+  - first:
+      213: -6606021773725731857
+    second: RoboCode_Sprite_185
+  - first:
+      213: -4035031041426530218
+    second: RoboCode_Sprite_186
+  - first:
+      213: 7130628068790924849
+    second: RoboCode_Sprite_187
+  - first:
+      213: 6127052206574832307
+    second: RoboCode_Sprite_188
+  - first:
+      213: -3985872027889506095
+    second: RoboCode_Sprite_189
+  - first:
+      213: -7931016696676707639
+    second: RoboCode_Sprite_190
+  - first:
+      213: 5147749121204986484
+    second: RoboCode_Sprite_191
+  - first:
+      213: 6854534899159486468
+    second: RoboCode_Sprite_192
+  - first:
+      213: 8657848763546586168
+    second: RoboCode_Sprite_193
+  - first:
+      213: -3691662693575051209
+    second: RoboCode_Sprite_194
+  - first:
+      213: -97295562286958723
+    second: RoboCode_Sprite_195
+  - first:
+      213: 4094051880960574006
+    second: RoboCode_Sprite_196
+  - first:
+      213: 5400537502875744364
+    second: RoboCode_Sprite_197
+  - first:
+      213: -56389432113109351
+    second: RoboCode_Sprite_198
+  - first:
+      213: 4664743306449727273
+    second: RoboCode_Sprite_199
+  - first:
+      213: 3105415491488883524
+    second: RoboCode_Sprite_200
+  - first:
+      213: -6364646155270882851
+    second: RoboCode_Sprite_201
+  - first:
+      213: 2797249571920881982
+    second: RoboCode_Sprite_202
+  - first:
+      213: 4839783158211331844
+    second: RoboCode_Sprite_203
+  - first:
+      213: 1248598180473619269
+    second: RoboCode_Sprite_204
+  - first:
+      213: -7901193754530551990
+    second: RoboCode_Sprite_205
+  - first:
+      213: -7429786197016661753
+    second: RoboCode_Sprite_206
+  - first:
+      213: 5343977774562505778
+    second: RoboCode_Sprite_207
+  - first:
+      213: 4769906936033165504
+    second: RoboCode_Sprite_208
+  - first:
+      213: 8132566789855373402
+    second: RoboCode_Sprite_209
+  - first:
+      213: -5420112646993311813
+    second: RoboCode_Sprite_210
+  - first:
+      213: 7159358466855167153
+    second: RoboCode_Sprite_211
+  - first:
+      213: -7963469976872605518
+    second: RoboCode_Sprite_212
+  - first:
+      213: 1388555977457189868
+    second: RoboCode_Sprite_213
+  - first:
+      213: -4696229693515016487
+    second: RoboCode_Sprite_214
+  - first:
+      213: -7392876654997083710
+    second: RoboCode_Sprite_215
+  - first:
+      213: 8478661890489572672
+    second: RoboCode_Sprite_216
+  - first:
+      213: 4799225560671000773
+    second: RoboCode_Sprite_217
+  - first:
+      213: -6259872606110936744
+    second: RoboCode_Sprite_218
+  - first:
+      213: 4905606367796052812
+    second: RoboCode_Sprite_219
+  - first:
+      213: -8705270429524497879
+    second: RoboCode_Sprite_220
+  - first:
+      213: -8652570184140942191
+    second: RoboCode_Sprite_221
+  - first:
+      213: -7650495073533854411
+    second: RoboCode_Sprite_222
+  - first:
+      213: -1243853827119519901
+    second: RoboCode_Sprite_223
+  - first:
+      213: 3293876408121108721
+    second: RoboCode_Sprite_224
+  - first:
+      213: -9039174212291084760
+    second: RoboCode_Sprite_225
+  - first:
+      213: -362343886941616839
+    second: RoboCode_Sprite_226
+  - first:
+      213: -575917713826491719
+    second: RoboCode_Sprite_227
+  - first:
+      213: -4762204293451442365
+    second: RoboCode_Sprite_228
+  - first:
+      213: -5492975326518194862
+    second: RoboCode_Sprite_229
+  - first:
+      213: -6029316907295456191
+    second: RoboCode_Sprite_230
+  - first:
+      213: -6925999001315597539
+    second: RoboCode_Sprite_231
+  - first:
+      213: 1257467328802958945
+    second: RoboCode_Sprite_232
+  - first:
+      213: -4779498336472442287
+    second: RoboCode_Sprite_233
+  - first:
+      213: -5874130886124921954
+    second: RoboCode_Sprite_234
+  - first:
+      213: 2346985730123040389
+    second: RoboCode_Sprite_235
+  - first:
+      213: 6927889679424357013
+    second: RoboCode_Sprite_236
+  - first:
+      213: 222134537211448611
+    second: RoboCode_Sprite_237
+  - first:
+      213: 1044244296366331679
+    second: RoboCode_Sprite_238
+  - first:
+      213: 982189773564063761
+    second: RoboCode_Sprite_239
+  - first:
+      213: -3047856996228669923
+    second: RoboCode_Sprite_240
+  - first:
+      213: -725819041502569769
+    second: RoboCode_Sprite_241
+  - first:
+      213: -4320401521568443209
+    second: RoboCode_Sprite_242
+  - first:
+      213: 7386225465386483169
+    second: RoboCode_Sprite_243
+  - first:
+      213: -2502137187386737546
+    second: RoboCode_Sprite_244
+  - first:
+      213: -9001087224757144346
+    second: RoboCode_Sprite_245
+  - first:
+      213: 8824460690615005668
+    second: RoboCode_Sprite_246
+  - first:
+      213: -7342527822736036963
+    second: RoboCode_Sprite_247
+  - first:
+      213: -1944730545631604837
+    second: RoboCode_Sprite_248
+  - first:
+      213: 5837231434687353216
+    second: RoboCode_Sprite_249
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RoboCode_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3837
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388958c7d5bdbc44fba21a4b43021687
+      internalID: 8492907522963562343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 3837
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368f3bf60d7b98e4c909c2a1fd4ffd9a
+      internalID: -7552865967638497432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 3837
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079505149fb0595419559d937be583ae
+      internalID: -4117060257484735061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 3837
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d25de17ad174c4aae02a4ca18ccae2
+      internalID: -4924220513545406747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 3833
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedf21e5657f73b4d89dc94d9437e8de
+      internalID: 2702365827300937088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 3833
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b79c73d4c9371439caa26298a17f3e
+      internalID: 5409061530525599397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 3833
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09fe8df8e4ce584ebd228c54aca3b23
+      internalID: 3001275380017784555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 3829
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d72adb88d1f75409cd3eb8caea9c16
+      internalID: 5651001854512714317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 3829
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bee58c94c1e54640b8be7300a3f704d
+      internalID: 2604016944448788661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 3829
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2852bee80c51a24ba19688ff0c3b5ea
+      internalID: 7988260935619734010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 3833
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9627946d2744aa48acb1402ffc40d1a
+      internalID: -655114568061791260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 3833
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cd15e64207230408f95592118b6931
+      internalID: 3119324294521409231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 3834
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115f9d7ed44f67b47af0d08b4cfeb0e3
+      internalID: -723700147431405639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 3547
+        y: 3834
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799a4b266604e884aa88623f550c544b
+      internalID: -4389846073485105784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 3824
+        y: 3832
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dee88905f1a1c47ade8d94e25d6834
+      internalID: 2066932066954329720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3555
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b53e2c928685fc4ba3b59b1c3c29e1d
+      internalID: -1861964029474517216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 3555
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd288dc682cb939478e3d007c15d1539
+      internalID: -2733209217475953668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 3555
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c62be9693535f489e3d5ac15dd5839
+      internalID: 7678488437978006219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 3555
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8a0330179bd9742aef114e8aa20c1b
+      internalID: -9174477999104236472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 3555
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6983dd63d11362b438d76080b6c955b9
+      internalID: -9129855661152446086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 3555
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb06c8748bf245e48b11d43479610fd4
+      internalID: 3112413815486830265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 3559
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d97cd9d5c2f9048b7b3072e092e545
+      internalID: 4681216379047027569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 3559
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63d23c4e4cc8d445bbc19958839eccf
+      internalID: 4572164323227430476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 3555
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b1c73a223aba94e9ec18d3079fbb50
+      internalID: -8589535818599249692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 3555
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77138af7184d85b45a37e86224e451a6
+      internalID: 8775438407323417600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 3555
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976d331ce563d464a947eadd1cb57eda
+      internalID: 5985019403449122486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 3555
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0d1a67a4d89d64480678783d510a9a
+      internalID: -4508793435397632187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 3549
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43f19efa9147634a9bf94becf56989d
+      internalID: 9141758613641452325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 3551
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaee53d2c1a921b4b8cb76fa64a00fc5
+      internalID: -2373411140759208863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 3822
+        y: 3553
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823108fa6ce2f944a9ec71c44f62287c
+      internalID: -8722276044028608782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf67e8a18d51fa4591b18b08384abcb
+      internalID: 6360614212060978909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf131fa39e76e0f478ffc4cc6a3bf3f6
+      internalID: 6611121251203408089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 3280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71437f5e62e86ef4bbb2c3ec2d52350b
+      internalID: 6221677976585832749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 3280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bff0f107d308c5429625da9aea1a30a
+      internalID: -3524719617147313523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 3280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df68fba270870f4694591beadf14ef9
+      internalID: -1824634681019510448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 3280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52509107447d1de4393724d57649b392
+      internalID: -6393049708213183568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 3280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe40d73106ac0b4a912139a2a4d484f
+      internalID: -5183901857765638363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 3280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a8d9f1724beca4e8b90d21b5467309
+      internalID: -8968462653247503655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 3275
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0d99fe623de96458e10269c7f07025
+      internalID: -7997394941029919127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 3275
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2ea70d8e9d72c4481038dfa8ea6b30
+      internalID: -9004412730046104631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 3275
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b423eb092ec94c4596d7cf9e2a3ec58
+      internalID: -6205416502791157779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 3275
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658d5c5816ce090479bc23e967ec6e93
+      internalID: -1691816959632693389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 3275
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3304ca3de1f0c0e4586993e906e600cc
+      internalID: -5574187173987905371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_43
+      rect:
+        serializedVersion: 2
+        x: 3560
+        y: 3275
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5a271a84cff6741b1410b4ebae5a67
+      internalID: -3885649699707520166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_44
+      rect:
+        serializedVersion: 2
+        x: 3827
+        y: 3279
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2126ad56eeb1dd946b786fd5e4a58ed1
+      internalID: 8082096894757754592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_45
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3010
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ff595ce725b6d4ca5e400bfccf4c54
+      internalID: -2544160852195850444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_46
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 3006
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb35e929e741ab40b7df9521ad3dcd8
+      internalID: 1864540806701152127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_47
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 3006
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bd0a16f85d18a40b00c13da986b4fe
+      internalID: 6470312023470941503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_58
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 3001
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b3077c171811d4f91f7d401f785588
+      internalID: -7900568350571243167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_59
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 3002
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df897a696eb1f840bf00c5bde1bd0fc
+      internalID: -7035601324043843212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_60
+      rect:
+        serializedVersion: 2
+        x: 3536
+        y: 3003
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4121131294f8a6146837a95c3a4bf15c
+      internalID: -3165388587532130219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_61
+      rect:
+        serializedVersion: 2
+        x: 3808
+        y: 3006
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e70322f6fe7dc44b9c32b8d0c5f3ca
+      internalID: -1901229381824549527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_87
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2718
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e788dd53b9bbf640af906ab210833c2
+      internalID: 1431591931377801693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_88
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2718
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa5603fee2cd3a439fc44a50f4cc8b7
+      internalID: -7371016076289567691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_89
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2718
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c52c4708846d1645981e6fe791bcf22
+      internalID: -5904425332178340591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_90
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 2718
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1696fad264db94c45b1d3693e4749a1b
+      internalID: 5523663266244240032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_91
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 2718
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b45b50214c7874bae2f0cfe22888a0
+      internalID: -5467779106848118130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_92
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 2718
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e966153e738dc641a661fa3b91a4e17
+      internalID: -4001307817913222257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_93
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 2718
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf6ba0e59a558745889dc402cf02afa
+      internalID: -4574519294984271787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_94
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2718
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9fab7b046ec7d44833c3da17d1cda7
+      internalID: 5067816583551123501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_95
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 2718
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b39bfddeb34444a90271bfa369a5a9
+      internalID: -7529816472546934637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_96
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 2718
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead15c68fb5417e4f9f2b22c1818fd58
+      internalID: -8677351489012948340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_97
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 2718
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8076d09a1b64da4ba7c143ad5cb3256
+      internalID: 5931425521300102203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_98
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 2718
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6c9092fff9b7749a71b10313bcb9e5
+      internalID: 4611878680926167564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_99
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 2718
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c836e80caf8499f47a90fad7cf7b4b22
+      internalID: 1011483174258576768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_100
+      rect:
+        serializedVersion: 2
+        x: 3536
+        y: 2719
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98242fe42156d64fa25f74b31640b14
+      internalID: 395170634237954913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_101
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 2716
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7633807b4a9ec2c4e9a421d360f8053f
+      internalID: -5618830755370016770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_102
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2446
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dafe44e0a4c6b4fbbc5c53d893911a
+      internalID: 7097301977384582274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_103
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2442
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0e563304afd454b849dab647ec9b92
+      internalID: 9201912900309877653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_104
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2438
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc6c7842f6020642bf90bdd0d6269bb
+      internalID: -8868597506247884146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_105
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 2442
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a6d828458eb19489e48564db7b76ff
+      internalID: 1167003098639817992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_106
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 2442
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03876f3bd2e70264498efebc494deab0
+      internalID: -7277814188286884303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_107
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 2442
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15b17a2f94ede04e85f98c8794ae192
+      internalID: 4164796240227495223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_108
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 2442
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1268688d36293b344a87a4b45f961198
+      internalID: -5997493993032977626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_109
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 2442
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe70cc5328999f4483a0c0f82413e1b
+      internalID: 7362296991276305119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_110
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 2442
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dfded43f9846a4dac8747616d8914d
+      internalID: -9222287688885364313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_111
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 2442
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d53eb5eb45b2fa4c82ef6581d3f173e
+      internalID: 3610530642324794585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_112
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 2442
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc3e90208e7c0843af94d9eb47b6781
+      internalID: -4388297153365087700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_113
+      rect:
+        serializedVersion: 2
+        x: 2990
+        y: 2435
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b99477345877e4aa3a2763b773b97d
+      internalID: -8553224446289661707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_114
+      rect:
+        serializedVersion: 2
+        x: 3266
+        y: 2435
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7aedfe4f5e0be4681b7ed11d4542f1
+      internalID: -1648131097204277612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_115
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 2435
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31db4253913acb459ba96fb27d9dff2
+      internalID: -3944054429814233230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_116
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 2435
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a259b3dba85248442aca9f4844ad73aa
+      internalID: 3033493304934223946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_117
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2170
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adddfe4e7df16b542a781e8e15ce116b
+      internalID: 1018583484902328764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_118
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2166
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00602f76c67bd494496f7614dee814c6
+      internalID: 4305312027071534202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_119
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2166
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d16ef808d7f944fbf71af9e46acf91
+      internalID: -881690839501646667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_120
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 2166
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fef42036ce1cf4f9705bbf1604cd58
+      internalID: 4152684746428205128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_121
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 2166
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9781fa5535d754249823c1b755bc0e8e
+      internalID: -7271850097186407248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_122
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 2170
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e1458f9dc9e2449a908be1533fd03a
+      internalID: -170112161393994753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_123
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 2170
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea823d1faabac324299e637d004cfb49
+      internalID: -5205389765386024925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_124
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 2166
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55fcedab62aa65498ef3439601c3f19
+      internalID: -8671399716528546725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_125
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 2166
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a3910bf45cf1645b2601ed91262990
+      internalID: 3000147145525543487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_126
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 2166
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8a5dbe16f44844f9db43542b4f67c0
+      internalID: 3605546595377500455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_127
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 2166
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48753b71d1ce92428bf9e419fa1c313
+      internalID: 3055725694601451120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_128
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 2166
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40b16dfa0049a841aeb56b39c7b71a0
+      internalID: 73464941542603096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_129
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 2166
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb43c7a025c41948873fe15eb361c3c
+      internalID: 3302083990553251812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_130
+      rect:
+        serializedVersion: 2
+        x: 3532
+        y: 2162
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec7d3897729b1544bf289c69f257075
+      internalID: -7660846984088003982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_131
+      rect:
+        serializedVersion: 2
+        x: 3809
+        y: 2158
+        width: 253
+        height: 256
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0ed353d4735144483fdf9f76680c6d
+      internalID: 4367121680704592306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_132
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ada9a70ae580b45bfb1e93e36f1a66
+      internalID: -2901384564939689409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_133
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f3eb7b2f63b9c448348154719e7b1f
+      internalID: 1957607264882863629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_134
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5373e0a2286d2a048b1a6a3c4a9c2b98
+      internalID: -1068540835501948999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_135
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5fae580b21fff4098c4b67012c2793
+      internalID: -4772541916283582052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_136
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159d576b5cd118c428da5fa81d7365bb
+      internalID: 438439685873477686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_137
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634514f0a834d064fa2efbe2b11544a8
+      internalID: -5157960209570628408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_138
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1285ce5765b2d44bbf23377aa99b40
+      internalID: 3151132961309568167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_139
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b4e163282bcbc47a8eef71d690d97a
+      internalID: -8459590005481273087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_140
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f52c9f1da0e72340ba67bf402f15ffd
+      internalID: 2460967781631412992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_141
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42f7e7f201e4e748b0869e8dd81e075
+      internalID: -1776737885300293505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_142
+      rect:
+        serializedVersion: 2
+        x: 2740
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1139a615e1821fa4eb84ffe8f35d7aaa
+      internalID: 3291812016410074980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_143
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f99cf909ed055041b30f73da1deafa6
+      internalID: -5107459285765818211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_144
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc0a14c5f634ad46a5c26794d21c531
+      internalID: -5977199159946662159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_145
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8b2ffe0ddf5024690f3e731fdfeb2b
+      internalID: 5999841364626840316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_146
+      rect:
+        serializedVersion: 2
+        x: 3827
+        y: 1880
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97279b5da0519a949b703a8d268fcdaa
+      internalID: -8568962681460115944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_147
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1614
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fda05d99249a542bd5ab75f16fcad4
+      internalID: 8755691484051217105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_148
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5811196d2ba77f3408268eee6f335bbd
+      internalID: -6612731854729799688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_149
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1604
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926999b0372c2584b9bd14bb780798cc
+      internalID: -3861441282453213786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_150
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1606
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7439518274d29469cd97a7bb375037
+      internalID: 3719223911688921559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_151
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1608
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07f649a4ca666649ac49692207cabbd
+      internalID: 2142076794653290538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_152
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1604
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc9f4867a0fe144dab9e7937c1a178a
+      internalID: -7562842590463197300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_153
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1600
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97deb8658c00d11428adb29d3d751801
+      internalID: 4944669975456631116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_154
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1600
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54770465cbe0ba94b95c832a3d1bc1d5
+      internalID: 6837071044283190918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_155
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 1604
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110fbce3431319544ab7c073dd0a82ca
+      internalID: 342900667285494759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_156
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 1600
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6016433fdc767a4aaa49fd037f38874
+      internalID: 5509875815005614150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_157
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 1600
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b21bdb59b93794d86ea3cef9019048
+      internalID: -5395445674918660294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_158
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 1606
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1a1a05ba0a4af40ad59ca444f9d736
+      internalID: -1306677998239109422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_159
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 1600
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d8183bd2284d54facf8b3a42fbea84
+      internalID: 3630638388949334123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_160
+      rect:
+        serializedVersion: 2
+        x: 3551
+        y: 1600
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6249eb92f80e143ba6c623bc484596
+      internalID: 8555193019365806921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_161
+      rect:
+        serializedVersion: 2
+        x: 3824
+        y: 1602
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf55356ac34b96e45beca41a379e77d3
+      internalID: -8252110197501469407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_162
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1346
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1238142d037926b46af368f54c75fed4
+      internalID: -6650093169185857477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_163
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1336
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ab587e1a0636b4691915ad7ccab37d
+      internalID: -5708193448359233011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_164
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1332
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4494e5a65f22946966764b499f4082
+      internalID: -2097701655267735752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_165
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1332
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8030c7a3623b75a46889eca2b06a6918
+      internalID: 887733507134183309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_166
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1334
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff510a99da1d1df4db530e27c374731d
+      internalID: 6893868133742369025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_167
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1332
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bf5b1907d5ada4d9ea9bea230f3911
+      internalID: 8241610280959273527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_168
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619081cd10c7c634890519ac6b37e4c4
+      internalID: 3979148785829448669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_169
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1330
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bfe689cc775dc4e84b26b98029011d
+      internalID: 991066321719342682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_170
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 1332
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4224ed057c4742346bacecad0f12ec34
+      internalID: -9188390857245300255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_171
+      rect:
+        serializedVersion: 2
+        x: 2463
+        y: 1332
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1475fde84b7fd4a8f1aa238d2b244e
+      internalID: -138956608365483064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_172
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 1334
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa4e10d7771d3a47845d16f0345234d
+      internalID: 6240071925683229674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_173
+      rect:
+        serializedVersion: 2
+        x: 3017
+        y: 1332
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e880258c753084540858e7be40c80a4d
+      internalID: 4633423750872457814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_174
+      rect:
+        serializedVersion: 2
+        x: 3282
+        y: 1332
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e94fef3529e814e96911358c7c58f9
+      internalID: 7116352601990527329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_175
+      rect:
+        serializedVersion: 2
+        x: 3563
+        y: 1328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b79249e6755d844ab3a128e77b99233
+      internalID: -2547372093630069232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_176
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dbef10024828a4c8a74817b0790087
+      internalID: 8493887364977918986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_177
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1078
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0121c0e51dc3d40b1573f0ec530fab
+      internalID: -2205398315785586839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_178
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1256
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3033010b1e6858c4fa35b40b17c6e31a
+      internalID: 3411961331906388333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_179
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1256
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6eadad8073ea94e86f4322cd7375f1
+      internalID: 5181370694343503162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_180
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1256
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba0502975463e149ad2e0c6a4a10248
+      internalID: 2581073343938760018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_181
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182da56f627fea34580987c118055d36
+      internalID: 6800702334775966971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_182
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1256
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b036b60d249db4082037973d0f0ab4
+      internalID: -2928197044521989161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_183
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1256
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72bbc3d19fc0924eb0f6f6c6e22a2e4
+      internalID: 7882838229439350862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_184
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a718c7545b6118499180c2aeae814d0
+      internalID: -8649561068439319898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_185
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f34d7284e3dd9498338dd1cee6824d
+      internalID: -6606021773725731857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_186
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1256
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d94bdcfd585be4eaaddd23878db387
+      internalID: -4035031041426530218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_187
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1256
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96b4af16302b12499e9330284ddacd9
+      internalID: 7130628068790924849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_188
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1252
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e138dd25aa38149b0a1e6d7f85f733
+      internalID: 6127052206574832307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_189
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1252
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa9e1a973a83754db79a0931bc0d8e2
+      internalID: -3985872027889506095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_190
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1252
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052df81462a817b489cb0d9a1717f1bf
+      internalID: -7931016696676707639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_191
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1252
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41085f7819419542b72682d7e35a674
+      internalID: 5147749121204986484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_192
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1252
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47fcd46bbb3aef40a03d798b339072a
+      internalID: 6854534899159486468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_193
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1252
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1c53f82b01ed44d9258469ae68d452
+      internalID: 8657848763546586168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_194
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1252
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4998953201a4d4d4fa5625416a3f6b6e
+      internalID: -3691662693575051209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_195
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 1252
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d433ec21cbd7e3a479068ee2ae8a378c
+      internalID: -97295562286958723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_196
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 1252
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6398ad3f550f045883de8331651fcc
+      internalID: 4094051880960574006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_197
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1252
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1119b844bd275e64c89890c33edeb458
+      internalID: 5400537502875744364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_198
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1252
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d72b1f73ff9a54e88e5fd530de000d
+      internalID: -56389432113109351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_199
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 1252
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a77a687d5c3414d8b30a5bdfe0b24a
+      internalID: 4664743306449727273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_200
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1252
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bfdd4a6f80f0d4b8f0255a90b044aa
+      internalID: 3105415491488883524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_201
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1056
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa05f6be03dfd094db307bb3dbd39ce1
+      internalID: -6364646155270882851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_202
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1057
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a09c5e757bef640b21c91ae0f79897
+      internalID: 2797249571920881982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_203
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 1060
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d750efc49061f354cbf2698bfff0dd2f
+      internalID: 4839783158211331844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_204
+      rect:
+        serializedVersion: 2
+        x: 2455
+        y: 1057
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2dbdea5dcbdce44812177a2c4a0f38
+      internalID: 1248598180473619269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_205
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 1050
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 128, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2121fcaa7bc4c45ae9170de94b7301
+      internalID: -7901193754530551990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_206
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 1057
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1fc0dd0ae9e244b8e4631a8e5b8ae9
+      internalID: -7429786197016661753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_207
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 1060
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 128, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc0a33122b01664f9e6bc2ac6a219b5
+      internalID: 5343977774562505778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_208
+      rect:
+        serializedVersion: 2
+        x: 3543
+        y: 1060
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e7bc682881c3146aebcb0179247027
+      internalID: 4769906936033165504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_209
+      rect:
+        serializedVersion: 2
+        x: 3811
+        y: 1062
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22bdd137c2f14b4e9cc3b89cca7c8fc
+      internalID: 8132566789855373402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_210
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 795
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 128, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e9e0e67e11dfe48bf7e6a9ab95e20c
+      internalID: -5420112646993311813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_211
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 800
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 128, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec7c41beff7af2489c802c673ce28ef
+      internalID: 7159358466855167153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_212
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 803
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6303dae3ae15c4cb0c6f2194bb04de
+      internalID: -7963469976872605518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_213
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 795
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596517d401a55044c8d876c5ad7fcc07
+      internalID: 1388555977457189868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_214
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 788
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 128, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5926e1ca92cc9d141a2047c2ba78d460
+      internalID: -4696229693515016487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_215
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 785
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 128, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e472290a95468144ead4c1995281f02d
+      internalID: -7392876654997083710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_216
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 785
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 128, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7f1132036e813409954f8db15a3067
+      internalID: 8478661890489572672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_217
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 785
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 128, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4ec685e84fffa48a60ab458ddd4224
+      internalID: 4799225560671000773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_218
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 785
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c453a08d1809ba74e897e937af6deb73
+      internalID: -6259872606110936744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_219
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 779
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff0bf43518fd414a9ea7770888fc797
+      internalID: 4905606367796052812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_220
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 779
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac260067ab432bf4697fb8c563cda5c4
+      internalID: -8705270429524497879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_221
+      rect:
+        serializedVersion: 2
+        x: 2990
+        y: 782
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adff2f89543596a4ea462ac3dcc79bf5
+      internalID: -8652570184140942191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_222
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 779
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954810e52dfbe9a41a63babce28a66d7
+      internalID: -7650495073533854411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_223
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 779
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0743a8bef115bb4491e72e5705cd25a
+      internalID: -1243853827119519901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_224
+      rect:
+        serializedVersion: 2
+        x: 3795
+        y: 779
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a8177c0961bc541a328d0264676a5c
+      internalID: 3293876408121108721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_225
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 523
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a53dd51685a9534b992db6352d0c3e0
+      internalID: -9039174212291084760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_226
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 526
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac11b9aa495803d43b4aefd32ed5a272
+      internalID: -362343886941616839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_227
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 523
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9a11ff11a018d4a8dbf502c4097a6b
+      internalID: -575917713826491719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_228
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 520
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d241e9049e26e4ebc5accdd50a1e66
+      internalID: -4762204293451442365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_229
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 517
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85a1b7a109361e48a8c06bc86784eaa
+      internalID: -5492975326518194862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_230
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 518
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b4e28005a16ed43bb15cb433556275
+      internalID: -6029316907295456191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_231
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 520
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c7c19037298ee4a899a7471cd6d83e
+      internalID: -6925999001315597539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_232
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 517
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ea5b8e05afef34091b43422082743c
+      internalID: 1257467328802958945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_233
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 517
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7505f004fc89c64bb9329a93dbe9c0b
+      internalID: -4779498336472442287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_234
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 511
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f763b4d2e9aecff41be5daa8f749bba1
+      internalID: -5874130886124921954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_235
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 511
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 128, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d070e94dfa37f9408849e7419c3ffa9
+      internalID: 2346985730123040389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_236
+      rect:
+        serializedVersion: 2
+        x: 2989
+        y: 508
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 128, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57e39c1259d5574bbc75adc9b4632f3
+      internalID: 6927889679424357013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_237
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 508
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3a617381a7f1b47843bf167d1c65f4
+      internalID: 222134537211448611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_238
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 511
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4102eb14d4f154041933ae154cd3e9a2
+      internalID: 1044244296366331679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_239
+      rect:
+        serializedVersion: 2
+        x: 3796
+        y: 508
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14acf63164b75e245832902aa304ba75
+      internalID: 982189773564063761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_240
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 252
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac52fc0ac20ea7468b8048216a5a7df
+      internalID: -3047856996228669923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_241
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 255
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c717bd113a1f4a4d9118191f263d790
+      internalID: -725819041502569769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_242
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 255
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 128, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8492e348fb71a9c4b82981679141a98b
+      internalID: -4320401521568443209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_243
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 249
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f787349b546f994fbb6403aa1bd3723
+      internalID: 7386225465386483169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_244
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 246
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258fe0432d901e147a056257b2e96ddb
+      internalID: -2502137187386737546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_245
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 240
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 128, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ca6a2a6ff6bd948af2d07c070906e3
+      internalID: -9001087224757144346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_246
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 240
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -128, y: 128}
+        - {x: -128, y: -128}
+        - {x: 126, y: -128}
+        - {x: 128, y: 128}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a4ecb833035f446a9b88423aee2679
+      internalID: 8824460690615005668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_247
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 241
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f780c3bf00eb524ea509d0ca4694a54
+      internalID: -7342527822736036963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_248
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 240
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7e0c6fadc6b9d4a9c55469c4e432a2
+      internalID: -1944730545631604837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_249
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 3034
+        width: 256
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c88335da7b3b5489cab3956054031d
+      internalID: 5837231434687353216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_48
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 3027
+        width: 256
+        height: 128
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123be603bad71f44da5663f0e2c3fe6f
+      internalID: -7709620858008229073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_49
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 3014
+        width: 256
+        height: 128
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12507e202c72d374480590cf121f5466
+      internalID: 3938243017083035173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_50
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 3010
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b929643c33c9c143a98fd0b12bcbb43
+      internalID: -4077568071000698289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_51
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 3005
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb6a5eeaaa2c4341adfc1f0f896c9fd
+      internalID: -8418774727311507466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_52
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 2997
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfb4ea71fa15f2418bf501fe7265111
+      internalID: -5103579363416529346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_53
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 2991
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f5414a75322404581c4904ca6f9637
+      internalID: 1798381519397370858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoboCode_Sprite_54
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 2992
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615ebfa44bf94d24d9d466b30c4c7837
+      internalID: 711694321059716806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a045d1c35794ecb4b94e043489a70645
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

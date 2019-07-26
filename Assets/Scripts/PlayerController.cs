@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
     [SerializeField] float speed = 3;
     [SerializeField] float jumpHeight = 5.5f;
+    [SerializeField] float highJumpHeight = 13;
     [SerializeField] float arrowRadius = 2f;
     [SerializeField] GameObject arrow = null;
 
@@ -28,8 +28,9 @@ public class PlayerController : MonoBehaviour
     // Layers
     readonly string GROUND = "Ground";
     readonly string JUMPABLE_OBSTACLES = "Jumpable Obstacles";
-    readonly string CRATE = "Crate";
+    readonly string CRATE = "Crates";
     readonly string INTERACTABLE = "Interactable";
+    readonly string COLLECTABLES = "Collectables";
 
     // Find where the end goal is
     EndTrigger endTrigger;
@@ -39,6 +40,11 @@ public class PlayerController : MonoBehaviour
     float lastNearObstacles = 0;
     float lastTurn = 0;
 
+    //Scene Management
+    bool loadingNextScene = false;
+    /// <summary>
+    /// 
+    /// </summary>
     void Start()
     {
         // Find all the cells and convert them into an array
@@ -150,6 +156,9 @@ public class PlayerController : MonoBehaviour
                             case Actions.Interact:
                                 Interact();
                                 break;
+                            case Actions.HighJump:
+                                HighJump();
+                                break;
                             case Actions.Climb:
                                 break;
                             default:
@@ -175,6 +184,9 @@ public class PlayerController : MonoBehaviour
                 case Actions.Interact:
                     Interact();
                     break;
+                case Actions.HighJump:
+                    HighJump();
+                    break;
                 case Actions.Climb:
                     break;
                 default:
@@ -197,12 +209,20 @@ public class PlayerController : MonoBehaviour
         // Makes the arrow fade as you get closer to the objective
         if (Mathf.Abs(Vector3.Magnitude(endTrigger.transform.position - this.transform.position)) < 7)
         {
+            if (!loadingNextScene)
+            {
+                SceneLoader.PreLoadNextSceneAsync();
+                loadingNextScene = true;
+            }
             if ((((Mathf.Abs(Vector3.Magnitude(endTrigger.transform.position - this.transform.position)) - 4) / 3) * 255) < 0)
             {
                 arrow.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0);// At a certain distance make the arrow disappear
                 return;
             }
             arrow.GetComponent<SpriteRenderer>().color = new Color32(255, 255, 255, (byte)(((Mathf.Abs(Vector3.Magnitude(endTrigger.transform.position - this.transform.position)) - 4) / 3) * 255));
+        } else
+        {
+            arrow.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 255);
         }
     }
 
@@ -334,6 +354,15 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void HighJump()
+    {
+        if (OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask(GROUND)) || OnGroundTrigger.IsTouchingLayers(LayerMask.GetMask(CRATE)) && Time.time - lastJump > 0.1)// If on ground jump the time stuff is to prevent spam jump
+        {
+            body.velocity = new Vector2(body.velocity.x, highJumpHeight);
+            lastJump = Time.time;
+        }
+    }
+
     void Turn()
     {
         if (Time.time - lastTurn > 0.1)
@@ -365,6 +394,15 @@ public class PlayerController : MonoBehaviour
         else
         {
             this.GetComponent<Animator>().SetBool("Walking", false);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.layer == LayerMask.NameToLayer(COLLECTABLES))
+        {
+            Debug.Log("Score");
+            GameObject.Destroy(col.gameObject);
         }
     }
 

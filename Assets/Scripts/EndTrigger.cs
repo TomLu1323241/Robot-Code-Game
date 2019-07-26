@@ -9,7 +9,7 @@ public class EndTrigger : MonoBehaviour
     {
         if (col.name.Equals("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneLoader.LoadNextSceneAsync();
         }
     }
 }

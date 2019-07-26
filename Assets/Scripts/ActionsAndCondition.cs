@@ -5,6 +5,7 @@
     Jump,
     Turn,
     Interact,
+    HighJump,
     Climb
 }
 

@@ -42,6 +42,24 @@ EditorBuildSettings:
     path: Assets/Levels/Level 12 (Platform Requires activation).unity
     guid: 56e243343b8bbc2469fe24f1675f7a75
   - enabled: 1
+    path: Assets/Levels/Level 13 (Cool doors).unity
+    guid: 6b036f53d493a7e4f8c715654e6831dc
+  - enabled: 1
+    path: Assets/Levels/Level 14 (Cool doors new tiles).unity
+    guid: bb465b2c9cb5fcc499609f8f0d1bc3ef
+  - enabled: 1
+    path: Assets/Levels/Level 15 (High Jump).unity
+    guid: f13184a9d365e06409af834a179ae98f
+  - enabled: 1
+    path: Assets/Levels/Level 16 (Portals).unity
+    guid: ae7b8fbb229f7734db9dc3aa432e5c93
+  - enabled: 1
+    path: Assets/Levels/Level 17 (Coins).unity
+    guid: 965ac7cc28cd2dd4bae5cef83d663523
+  - enabled: 1
+    path: Assets/Levels/Level 18 (Crates and Preasure Plates).unity
+    guid: 734a29a9d13b1954d9a3d4dff341707e
+  - enabled: 1
     path: Assets/Levels/Test World.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
