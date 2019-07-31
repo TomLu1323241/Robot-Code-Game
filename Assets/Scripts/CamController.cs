@@ -58,11 +58,11 @@ public class CamController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && inPlayArea())// Checks for double tap
         {
-            if (Time.time - lastTap < 0.2)
+            if (Time.realtimeSinceStartup - lastTap < 0.2)
             {
                 freeMove = !freeMove;
             }
-            lastTap = Time.time;
+            lastTap = Time.realtimeSinceStartup;
         }
     }
 

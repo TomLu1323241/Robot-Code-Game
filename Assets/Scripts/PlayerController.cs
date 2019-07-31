@@ -42,9 +42,6 @@ public class PlayerController : MonoBehaviour
 
     //Scene Management
     bool loadingNextScene = false;
-    /// <summary>
-    /// 
-    /// </summary>
     void Start()
     {
         // Find all the cells and convert them into an array

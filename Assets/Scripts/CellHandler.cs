@@ -50,31 +50,34 @@ public class CellHandler : MonoBehaviour
         Ticket original = null;
         for (int i = 0; i < cells.Length; i++)
         {
+            bool inCell = InCell(cells[i], tickets);
             for (int j = 0; j < cells[i].transform.childCount; j++)// Loops though the children of the cell to find a ticket and maybe swap
             {
-                if (cells[i].transform.GetChild(j).GetComponent<Ticket>() != null && inCell(cells[i], tickets))
+                if (cells[i].transform.GetChild(j).GetComponent<Ticket>() != null && inCell)
                 {
                     original = cells[i].transform.GetChild(j).GetComponent<Ticket>();
                 }
             }
 
             // Check if the ticket is both a condidtion and the user dragged it into a if cell
-            if (cells[i].isIfStatement && tickets.GetComponent<Ticket>().ifCondition && inCell(cells[i], tickets))
+            if (cells[i].isIfStatement && tickets.GetComponent<Ticket>().ifCondition && inCell)
             {
                 tickets.transform.SetParent(cells[i].transform);
                 tickets.transform.position = cells[i].GetComponentInChildren<TextMeshProUGUI>().gameObject.transform.position;
                 handled = true;
                 break;
-            } else if (!cells[i].isIfStatement && tickets.GetComponent<Ticket>().ifCondition && inCell(cells[i], tickets))
+            }
+            else if (!cells[i].isIfStatement && tickets.GetComponent<Ticket>().ifCondition && inCell)
             {
                 break;
-            } else if (cells[i].isIfStatement && !tickets.GetComponent<Ticket>().ifCondition && inCell(cells[i], tickets))
+            }
+            else if (cells[i].isIfStatement && !tickets.GetComponent<Ticket>().ifCondition && inCell)
             {
                 break;
             }
 
             // Checks if the ticket is a action inside the if statement
-            if (cells[i].insideIf && !tickets.GetComponent<Ticket>().ifCondition && inCell(cells[i], tickets))
+            if (cells[i].insideIf && !tickets.GetComponent<Ticket>().ifCondition && inCell)
             {
                 handled = true;
                 tickets.transform.SetParent(cells[i].transform);
@@ -86,7 +89,7 @@ public class CellHandler : MonoBehaviour
             bool isEndBracket = false;
             for (int j = 0; j < cells[i].transform.childCount; j++)
             {
-                if (cells[i].transform.GetChild(j).GetComponent<TextMeshProUGUI>() != null && cells[i].transform.GetChild(j).GetComponent<TextMeshProUGUI>().text.Equals("}") && inCell(cells[i], tickets))
+                if (cells[i].transform.GetChild(j).GetComponent<TextMeshProUGUI>() != null && cells[i].transform.GetChild(j).GetComponent<TextMeshProUGUI>().text.Equals("}") && inCell)
                 {
                     isEndBracket = true;
                     break;
@@ -98,7 +101,7 @@ public class CellHandler : MonoBehaviour
             }
 
             // Checks if the player drags an action into a normal cell
-            if (inCell(cells[i], tickets) && !tickets.GetComponent<Ticket>().ifCondition)
+            if (inCell && !tickets.GetComponent<Ticket>().ifCondition)
             {
                 handled = true;
                 tickets.transform.SetParent(cells[i].transform);
@@ -133,7 +136,8 @@ public class CellHandler : MonoBehaviour
                     cells[i].gameObject.GetComponent<Cell>().action = cells[i].transform.GetChild(j).GetComponent<Ticket>().action;
                     cells[i].gameObject.GetComponent<Cell>().condition = cells[i].transform.GetChild(j).GetComponent<Ticket>().condition;
                     break;// Breaks if there is a ticket
-                } else
+                }
+                else
                 {
                     // if there is no ticket then set all to empty
                     cells[i].gameObject.GetComponent<Cell>().action = Actions.Empty;
@@ -149,7 +153,7 @@ public class CellHandler : MonoBehaviour
         }
     }
 
-    private bool inCell(Cell rect, GameObject tickets)// Check if the position of a ticket is within a certain cell
+    private bool InCell(Cell rect, GameObject tickets)// Check if the position of a ticket is within a certain cell
     {
         if (rect.transform.position.x + rect.GetComponent<RectTransform>().rect.width / 2 > tickets.transform.position.x &&
             rect.transform.position.x - rect.GetComponent<RectTransform>().rect.width / 2 < tickets.transform.position.x &&

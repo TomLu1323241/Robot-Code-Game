@@ -41,6 +41,6 @@ public static class SceneLoader
 
     public static void LoadScene(int index)
     {
-        SceneManager.LoadScene(index);
+        SceneManager.LoadScene(index + 1);
     }
 }
