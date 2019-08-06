@@ -12,6 +12,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: In Mid Air
       objectReference: {fileID: 0}
+    - target: {fileID: 1344785469301107032, guid: c068541d13ff4bc4e949d8e7fd915987,
+        type: 3}
+      propertyPath: ifCondition
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1344785469301107032, guid: c068541d13ff4bc4e949d8e7fd915987,
+        type: 3}
+      propertyPath: condition
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1344785469301107033, guid: c068541d13ff4bc4e949d8e7fd915987,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -116,16 +126,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1344785469301107032, guid: c068541d13ff4bc4e949d8e7fd915987,
-        type: 3}
-      propertyPath: ifCondition
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1344785469301107032, guid: c068541d13ff4bc4e949d8e7fd915987,
-        type: 3}
-      propertyPath: condition
-      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1344785469744813552, guid: c068541d13ff4bc4e949d8e7fd915987,
         type: 3}

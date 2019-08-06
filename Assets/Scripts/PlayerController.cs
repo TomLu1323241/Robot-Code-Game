@@ -80,11 +80,11 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        CodeHandler();// Translate the drag and drop code into working code
+
         ArrowHandler();// Handles the arrow that points the user to the objective
         
         Animation();// Handles all the animation of the robot
-
-        CodeHandler();// Translate the drag and drop code into working code
 
         if (Input.GetKeyDown(KeyCode.Space))// Debugging shows what each cell contains
         {
