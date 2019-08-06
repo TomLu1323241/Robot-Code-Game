@@ -18,4 +18,9 @@ public class SceneLoaderMono : MonoBehaviour
     {
         SceneLoader.LoadMenu();
     }
+
+    public void LoadNextLevel()
+    {
+        SceneLoader.LoadNextScene();
+    }
 }

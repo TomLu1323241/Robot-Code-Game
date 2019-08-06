@@ -39,9 +39,7 @@ public class PlayerController : MonoBehaviour
     float lastJump = 0;
     float lastNearObstacles = 0;
     float lastTurn = 0;
-
-    //Scene Management
-    bool loadingNextScene = false;
+    
     void Start()
     {
         // Find all the cells and convert them into an array
@@ -206,11 +204,6 @@ public class PlayerController : MonoBehaviour
         // Makes the arrow fade as you get closer to the objective
         if (Mathf.Abs(Vector3.Magnitude(endTrigger.transform.position - this.transform.position)) < 7)
         {
-            if (!loadingNextScene)
-            {
-                SceneLoader.PreLoadNextSceneAsync();
-                loadingNextScene = true;
-            }
             if ((((Mathf.Abs(Vector3.Magnitude(endTrigger.transform.position - this.transform.position)) - 4) / 3) * 255) < 0)
             {
                 arrow.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0);// At a certain distance make the arrow disappear
