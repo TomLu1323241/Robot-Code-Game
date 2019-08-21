@@ -43,4 +43,9 @@ public static class SceneLoader
     {
         SceneManager.LoadScene(index + 1);
     }
+
+    public static int GetLevel()
+    {
+        return SceneManager.GetActiveScene().buildIndex;
+    }
 }

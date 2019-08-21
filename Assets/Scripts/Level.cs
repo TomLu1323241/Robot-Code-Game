@@ -10,6 +10,10 @@ public class Level : MonoBehaviour
     {
         if (mouseDown)
         {
+            if (this.GetComponentInChildren<TextMeshPro>().text.Equals("X"))
+            {
+                return;
+            }
             SceneLoader.LoadScene(int.Parse(this.GetComponentInChildren<TextMeshPro>().text));
         }
     }

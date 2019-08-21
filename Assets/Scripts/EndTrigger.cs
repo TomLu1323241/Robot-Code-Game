@@ -10,6 +10,11 @@ public class EndTrigger : MonoBehaviour
         if (col.name.Equals("Player"))
         {
             this.transform.GetChild(0).gameObject.SetActive(true);
+            if (PlayerPrefs.GetInt("PlayerPrefs") < SceneLoader.GetLevel())
+            {
+                PlayerPrefs.SetInt("levelUnlock", SceneLoader.GetLevel());
+                PlayerPrefs.Save();
+            }
         }
     }
 }

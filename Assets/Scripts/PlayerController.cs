@@ -11,6 +11,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float arrowRadius = 2f;
     [SerializeField] GameObject arrow = null;
 
+    [Header("Audio")]
+    [SerializeField] AudioClip idle = null;
+    [SerializeField] AudioClip walk = null;
+    [SerializeField] AudioClip jump = null;
+    [SerializeField] AudioClip turn = null;
+    [SerializeField] AudioClip intereact = null;
+    [SerializeField] AudioClip highJump = null;
+    [SerializeField] AudioClip ifConditionBecomesTrue = null;
+    AudioSource audioSource = null;
+
     Cell[] cells;
     Rigidbody2D body = null;
     bool facingLeft = false;
@@ -39,7 +49,7 @@ public class PlayerController : MonoBehaviour
     float lastJump = 0;
     float lastNearObstacles = 0;
     float lastTurn = 0;
-    
+
     void Start()
     {
         // Find all the cells and convert them into an array
@@ -60,12 +70,13 @@ public class PlayerController : MonoBehaviour
 
         // Initialize components
         body = this.GetComponent<Rigidbody2D>();
+        audioSource = this.GetComponent<AudioSource>();
 
         BodyCollider = this.GetComponent<Collider2D>();
         OnGroundTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[0];
         LeftEdgeTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[1];
         RightEdgeTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[2];
-        LeftWallTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[3];
+        LeftWallTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[3];   
         RightWallTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[4];
         LeftNearTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[5];
         RightNearTrigger = this.transform.GetComponentsInChildren<BoxCollider2D>()[6];
@@ -78,11 +89,11 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        Animation();// Handles all the animation of the robot
+
         CodeHandler();// Translate the drag and drop code into working code
 
         ArrowHandler();// Handles the arrow that points the user to the objective
-        
-        Animation();// Handles all the animation of the robot
 
         if (Input.GetKeyDown(KeyCode.Space))// Debugging shows what each cell contains
         {
@@ -133,6 +144,7 @@ public class PlayerController : MonoBehaviour
                 }
                 if (ifRunning)
                 {
+                    audioSource.PlayOneShot(ifConditionBecomesTrue);
                     for (int j = 1; j < cells[i].linesOfCommands + 1; j++)// Runs the code in the if statment in a nested loop
                     {
                         switch (cells[i + j].action)
@@ -210,7 +222,8 @@ public class PlayerController : MonoBehaviour
                 return;
             }
             arrow.GetComponent<SpriteRenderer>().color = new Color32(255, 255, 255, (byte)(((Mathf.Abs(Vector3.Magnitude(endTrigger.transform.position - this.transform.position)) - 4) / 3) * 255));
-        } else
+        }
+        else
         {
             arrow.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 255);
         }
@@ -303,7 +316,8 @@ public class PlayerController : MonoBehaviour
                 lastNearObstacles = Time.time;
                 return true;
             }
-        } else
+        }
+        else
         {
             if (RightNearTrigger.IsTouchingLayers(LayerMask.GetMask(JUMPABLE_OBSTACLES)) && Time.time - lastNearObstacles > 0.1)
             {
@@ -341,6 +355,7 @@ public class PlayerController : MonoBehaviour
         {
             body.velocity = new Vector2(body.velocity.x, jumpHeight);
             lastJump = Time.time;
+            audioSource.PlayOneShot(jump);
         }
     }
 
@@ -350,6 +365,7 @@ public class PlayerController : MonoBehaviour
         {
             body.velocity = new Vector2(body.velocity.x, highJumpHeight);
             lastJump = Time.time;
+            audioSource.PlayOneShot(highJump);
         }
     }
 
@@ -360,13 +376,15 @@ public class PlayerController : MonoBehaviour
             this.GetComponent<SpriteRenderer>().flipX = !this.GetComponent<SpriteRenderer>().flipX;// Flips the sprite
             facingLeft = !facingLeft;// Flips which way its facing
             lastTurn = Time.time;
+            audioSource.PlayOneShot(turn);
         }
     }
 
     void Interact()
     {
         Collider2D[] cols = Physics2D.OverlapAreaAll(this.transform.position + Vector3.down + Vector3.left * .5f, this.transform.position + Vector3.up + Vector3.right * .5f);
-        foreach(Collider2D col in cols)
+        audioSource.PlayOneShot(intereact);
+        foreach (Collider2D col in cols)
         {
             if ((Interactions)col.GetComponent(typeof(Interactions)) != null)
             {
@@ -380,10 +398,20 @@ public class PlayerController : MonoBehaviour
         if (Mathf.Abs(body.velocity.x) > 0.01f)// Handles walking depending on velocity
         {
             this.GetComponent<Animator>().SetBool("Walking", true);
+            if (audioSource.clip != walk)
+            {
+                audioSource.clip = walk;
+                audioSource.Play();
+            }
         }
         else
         {
             this.GetComponent<Animator>().SetBool("Walking", false);
+            if (audioSource.clip != idle)
+            {
+                audioSource.clip = idle;
+                audioSource.Play();
+            }
         }
     }
 

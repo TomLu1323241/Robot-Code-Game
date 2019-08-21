@@ -26,6 +26,11 @@ public class SimplePlayerMove : MonoBehaviour
     {
         Run();
         Jump();
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            PlayerPrefs.SetInt("levelUnlock", 1);
+            PlayerPrefs.Save();
+        }
     }
 
     void Jump()
