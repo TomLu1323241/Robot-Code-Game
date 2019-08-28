@@ -19,6 +19,16 @@ public class CellHandler : MonoBehaviour
         ifSetter();
     }
 
+    public override string ToString()
+    {
+        string result = "";
+        for (int i = 0; i < cells.Length; i++)
+        {
+            result += cells[i].ToString();
+        }
+        return result;
+    }
+
     private void ifSetter()// Sets the if statement and the end braket for it
     {
         for (int i = 0; i < cells.Length; i++)// Loops thought every cell and checks if it is an if statement

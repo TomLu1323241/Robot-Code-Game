@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class AudioMasterMono : MonoBehaviour
 {
-    [SerializeField] GameObject mute;
-    [SerializeField] GameObject unmute;
+    [SerializeField] GameObject mute = null;
+    [SerializeField] GameObject unmute = null;
 
     private void Start()
     {

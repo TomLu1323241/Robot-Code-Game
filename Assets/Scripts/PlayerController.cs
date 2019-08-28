@@ -52,6 +52,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 1;
         // Find all the cells and convert them into an array
         cells = GameObject.FindObjectsOfType<Cell>();
         // Simple bubble sort to order then the way that it is ordered visually (top cell to bottom cell)
@@ -85,6 +86,7 @@ public class PlayerController : MonoBehaviour
         arrow = GameObject.Instantiate(arrow);
 
         facingLeft = this.GetComponent<SpriteRenderer>().flipX;
+        
     }
 
     void Update()

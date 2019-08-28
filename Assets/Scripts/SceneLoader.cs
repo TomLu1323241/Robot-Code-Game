@@ -39,6 +39,11 @@ public static class SceneLoader
         SceneManager.LoadScene(1);
     }
 
+    public static void LoadAchievements()
+    {
+        SceneManager.LoadScene(SceneManager.sceneCount);
+    }
+
     public static void LoadScene(int index)
     {
         SceneManager.LoadScene(index + 1);

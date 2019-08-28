@@ -5,7 +5,7 @@ using TMPro;
 
 public class LevelSelector : MonoBehaviour
 {
-    [SerializeField] GameObject levelPrefab;
+    [SerializeField] GameObject levelPrefab = null;
 
     private readonly string LEVELUNLOCK = "levelUnlock";
 
