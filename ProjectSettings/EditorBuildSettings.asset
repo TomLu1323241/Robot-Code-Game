@@ -74,7 +74,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Level 21 (New Textures).unity
     guid: 62a0531cc8590ff41871861ec427783b
-  - enabled: 1
-    path: Assets/Journal/Demo/demo.unity
-    guid: 62115b74780f2f94c980af3c3720ed7b
   m_configObjects: {}
