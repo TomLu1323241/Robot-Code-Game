@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
     readonly string CRATE = "Crates";
     readonly string INTERACTABLE = "Interactable";
     readonly string COLLECTABLES = "Collectables";
+    readonly string JUMPPADS = "Jump Pads";
 
     // Find where the end goal is
     EndTrigger endTrigger;
@@ -139,6 +140,9 @@ public class PlayerController : MonoBehaviour
                     case Conditions.NearBarrel:
                         ifRunning = NearBarrel();
                         break;
+                    case Conditions.NearJumpPad:
+                        ifRunning = NearJumpPad();
+                        break;
                     case Conditions.OnLadder:
                         break;
                     default:
@@ -168,6 +172,9 @@ public class PlayerController : MonoBehaviour
                             case Actions.HighJump:
                                 HighJump();
                                 break;
+                            case Actions.WallTurn:
+                                WallTurn();
+                                break;
                             case Actions.Climb:
                                 break;
                             default:
@@ -195,6 +202,9 @@ public class PlayerController : MonoBehaviour
                     break;
                 case Actions.HighJump:
                     HighJump();
+                    break;
+                case Actions.WallTurn:
+                    WallTurn();
                     break;
                 case Actions.Climb:
                     break;
@@ -337,6 +347,33 @@ public class PlayerController : MonoBehaviour
             return true;
         }
         return false;
+    }
+
+    bool NearJumpPad()
+    {
+        if (facingLeft)
+        {
+            if (LeftEdgeTrigger.IsTouchingLayers(LayerMask.GetMask(JUMPPADS)))
+            {
+                return true;
+            }
+        }
+        else
+        {
+            if (RightEdgeTrigger.IsTouchingLayers(LayerMask.GetMask(JUMPPADS)))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    void WallTurn()
+    {
+        if (HitWall())
+        {
+            Turn();
+        }
     }
 
     void Walk()

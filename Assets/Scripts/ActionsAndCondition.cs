@@ -6,6 +6,7 @@
     Turn,
     Interact,
     HighJump,
+    WallTurn,
     Climb
 }
 
@@ -19,5 +20,6 @@ public enum Conditions
     HitCrate,
     InMidAir,
     NearBarrel,
-    OnLadder
+    OnLadder,
+    NearJumpPad
 }
